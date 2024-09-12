@@ -605,7 +605,8 @@
 	 value is sign-extended.  */
       rtx tmp0 = gen_reg_rtx (word_mode);
       emit_insn (gen_extend_insn (tmp0, operands[3], word_mode, <MODE>mode, 0));
-      operands[3] = gen_lowpart (<MODE>mode, tmp0);
+      poly_int64 offset = BYTES_BIG_ENDIAN ? GET_MODE_SIZE (<MODE>mode) : 0;
+      operands[3] = simplify_gen_subreg (<MODE>mode, tmp0, word_mode, offset);
     }
 
   if (TARGET_ZACAS)
