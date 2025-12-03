@@ -528,6 +528,9 @@ namespace selftest {
 void
 riscv_run_selftests (void)
 {
+  // FIXME: V extension does not work on RISC-V BE
+  if (TARGET_BIG_ENDIAN)
+    return;
   if (!BYTES_PER_RISCV_VECTOR.is_constant ())
     /* We can know POLY value = [4, 4] when BYTES_PER_RISCV_VECTOR
        is !is_constant () since we can use csrr vlenb and scalar shift
