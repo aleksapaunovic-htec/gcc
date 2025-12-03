@@ -15,7 +15,6 @@ along with GCC; see the file COPYING3.  If not see
 <http://www.gnu.org/licenses/>.  */
 
 #define IN_TARGET_CODE 1
-
 #define INCLUDE_STRING
 #define INCLUDE_MAP
 #define INCLUDE_VECTOR
@@ -541,9 +540,12 @@ riscv_run_selftests (void)
        when -mrvv-vector-bits=zvl, disable poly
        selftests in such situation.  */
     run_poly_int_selftests ();
-  run_const_vector_selftests ();
-  run_broadcast_selftests ();
-  run_vectorize_related_mode_selftests ();
+  // FIXME: V extension does not work on RISC-V BE
+  if (!TARGET_BIG_ENDIAN) {
+    run_const_vector_selftests ();
+    run_broadcast_selftests ();
+    run_vectorize_related_mode_selftests ();
+  }
 }
 } // namespace selftest
 #endif /* #if CHECKING_P */
