@@ -2107,6 +2107,10 @@ proc check_effective_target_riscv_d { } {
 # Cache the result.
 
 proc check_effective_target_riscv_v { } {
+    if { ([istarget riscv64be-*-*]) } {
+	return 0
+    }
+
     return [check_no_compiler_messages riscv_ext_v assembly {
        #ifndef __riscv_v
        #error "Not __riscv_v"
@@ -2283,6 +2287,9 @@ proc check_effective_target_riscv_b_ok { } {
 # Return 1 if we can execute code when using dg-add-options riscv_v
 
 proc check_effective_target_riscv_v_ok { } {
+    if { ([istarget riscv64be-*-*]) } {
+	return 0
+    }
     # If the target already supports v without any added options,
     # we may assume we can execute just fine.
     if { [check_effective_target_riscv_v] } {
