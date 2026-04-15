@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR bootstrap/88714 */
 
 struct S { int a, b, c; int *d; };

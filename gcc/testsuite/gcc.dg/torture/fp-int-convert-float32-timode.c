@@ -1,5 +1,6 @@
 /* Test floating-point conversions.  _Float32 type with TImode.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float32 } */
 /* { dg-require-effective-target float32_runtime } */

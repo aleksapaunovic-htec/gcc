@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target trampolines } */
 
 typedef __SIZE_TYPE__ size_t;

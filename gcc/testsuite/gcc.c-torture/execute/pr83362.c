@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef __UINT8_TYPE__ u8;
 typedef __UINT32_TYPE__ u32;
 

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -ftree-vectorize -mabi=lp64d -march=rv64gcv -mrvv-max-lmul=dynamic -fdump-tree-vect-all" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" "-O1" "-O2" "-Os" "-Og" "-Oz" } } */
 

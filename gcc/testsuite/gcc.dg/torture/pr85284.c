@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static int p[48], v;
 

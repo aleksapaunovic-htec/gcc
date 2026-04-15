@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/14470 */
 /* Origin: Lodewijk Voge <lvoge@cs.vu.nl> */
 

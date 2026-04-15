@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This used to fail on SPARC with an unaligned memory access.  */
 
 void foo(int n)

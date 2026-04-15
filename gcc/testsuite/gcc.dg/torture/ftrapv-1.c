@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftrapv -fno-ipa-vrp" } */
 /* { dg-require-effective-target trapping } */
 /* { dg-require-fork "" } */

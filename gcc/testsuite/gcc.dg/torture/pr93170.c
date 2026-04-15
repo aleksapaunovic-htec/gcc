@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int128 } */
 /* { dg-options "-Wno-psabi" } */
 /* { dg-additional-options "-frename-registers -fno-tree-forwprop -fno-tree-fre -fira-algorithm=priority -mstringop-strategy=loop --param=hot-bb-frequency-fraction=0 -Wno-psabi" { target { x86_64-*-* i?86-*-* } } } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/19857 */
 
 typedef struct { char c[8]; } V

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* derived from PR optimization/11440  */
 /* { dg-additional-options "-std=gnu17" } */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR ipa/78791 */
 
 int val;

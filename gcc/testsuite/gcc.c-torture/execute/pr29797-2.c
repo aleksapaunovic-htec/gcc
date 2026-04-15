@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort(void);
 
 unsigned long bar(void) { return 32768; }

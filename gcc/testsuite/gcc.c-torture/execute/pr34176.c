@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef __SIZE_TYPE__ size_t;
 typedef unsigned int index_ty;

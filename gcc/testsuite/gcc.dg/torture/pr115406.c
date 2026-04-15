@@ -1,4 +1,5 @@
 // { dg-do run }
+/* { dg-require-effective-target riscv_v_ok } */
 // { dg-additional-options "-mavx512f" { target avx512f_runtime } }
 
 typedef __attribute__((__vector_size__ (1))) signed char V;

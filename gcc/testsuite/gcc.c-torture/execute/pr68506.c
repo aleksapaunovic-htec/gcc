@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fno-builtin-abort" } */
 
 int a, b, m, n, o, p, s, u, i;

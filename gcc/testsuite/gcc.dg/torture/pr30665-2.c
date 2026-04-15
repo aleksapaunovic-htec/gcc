@@ -1,6 +1,7 @@
 /* PR target/30665: bug in cris.md peephole2 condition.
    Original reduced testcase (fails on 3.2.1 derivate, not on trunk).  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 extern void exit (int);

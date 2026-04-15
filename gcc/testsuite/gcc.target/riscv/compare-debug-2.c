@@ -1,3 +1,4 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O -fno-tree-ch --param=max-completely-peel-times=0 -march=rv64imv -mabi=lp64d -fno-dce -fschedule-insns -fcompare-debug" } */
 #include "compare-debug-1.c"

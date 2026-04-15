@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fstrict-aliasing" } */
 
 int a, c, *d = &c, **e = &d, *g = &a;

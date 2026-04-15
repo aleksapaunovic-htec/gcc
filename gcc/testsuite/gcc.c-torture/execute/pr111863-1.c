@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options " -fno-tree-ccp -fno-tree-dominator-opts -fno-tree-vrp" } */
 
 __attribute__((noipa))

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/93402 */
 
 struct S { unsigned int a; unsigned long long b; };

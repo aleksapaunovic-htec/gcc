@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2002  Free Software Foundation.
 
    Test that optimizing ((c>=1) && (c<=127)) into (signed char)c < 0

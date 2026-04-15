@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static _Bool
 foo (_Bool a, _Bool b)

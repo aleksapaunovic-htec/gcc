@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/28970 */
 /* Origin: Peter Bergner <bergner@vnet.ibm.com> */
 /* { dg-require-effective-target int32plus } */

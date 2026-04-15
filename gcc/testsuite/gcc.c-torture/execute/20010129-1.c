@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mtune=i686" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
 
 extern void abort (void);

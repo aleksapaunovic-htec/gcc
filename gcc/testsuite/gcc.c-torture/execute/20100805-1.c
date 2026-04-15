@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 unsigned int foo (unsigned int a, unsigned int b)
 {
   unsigned i;

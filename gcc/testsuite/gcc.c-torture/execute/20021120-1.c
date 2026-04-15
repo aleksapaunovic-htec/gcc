@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "memory tight" { ! size20plus } { "*" } { "-Os" } } */
 
 void abort (void);

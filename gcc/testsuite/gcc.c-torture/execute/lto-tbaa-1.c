@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-early-inlining -fno-ipa-cp" }  */
 struct a {
   float *b;

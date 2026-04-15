@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "signed zero not supported" { "vax-*-*" } } */
 extern void abort (void);
 

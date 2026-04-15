@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct A { char x[1]; };
 extern void abort (void);
 void __attribute__((noinline,noclone))

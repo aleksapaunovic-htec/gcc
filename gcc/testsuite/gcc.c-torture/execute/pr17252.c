@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 17252.  When a char * pointer P takes its own address, storing
    into *P changes P itself.  */
 

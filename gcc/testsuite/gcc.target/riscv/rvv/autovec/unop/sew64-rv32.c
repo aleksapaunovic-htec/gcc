@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32d -O3 -ftree-vectorize -fno-vect-cost-model -ffast-math" } */
 
 #include <stdint-gcc.h>

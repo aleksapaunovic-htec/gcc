@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c99" } */
 
 long long a = -1;

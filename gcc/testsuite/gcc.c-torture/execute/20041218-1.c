@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/16968 */
 /* Testcase by Jakub Jelinek  <jakub@redhat.com> */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef struct s {
 	unsigned short a;
 	unsigned long b __attribute__ ((packed));

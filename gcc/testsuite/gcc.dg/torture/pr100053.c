@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int __attribute__((returns_twice,noipa)) x() { return 0; }
 void __attribute__((noipa)) ar() {}

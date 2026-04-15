@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftree-slp-vectorize -fno-vect-cost-model" } */
 /* { dg-additional-options "-msse4" { target sse4_runtime} } */
 

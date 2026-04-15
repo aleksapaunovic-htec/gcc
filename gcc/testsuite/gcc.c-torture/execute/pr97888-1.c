@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/97888 */
 
 int a = 1, c = 4, d, e;

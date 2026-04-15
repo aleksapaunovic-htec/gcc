@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mtune=generic-ooo -O3 -march=rv64gcv_zvl256b_zba -mabi=lp64d -mrvv-max-lmul=m2 -mrvv-vector-bits=scalable" } */
 
 int test(int* in, int n)

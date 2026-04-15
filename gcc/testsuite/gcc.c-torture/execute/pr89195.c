@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/89195 */
 /* { dg-require-effective-target int32plus } */
 

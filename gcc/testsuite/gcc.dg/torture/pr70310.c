@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef unsigned char v32u8 __attribute__ ((vector_size (32)));
 

@@ -5,6 +5,7 @@
    Origin: Kaveh R. Ghazi,  August 13, 2009.  */
 
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* C6X fails due to -freciprocal-math default.  */
 /* { dg-skip-if "" { tic6x-*-* } } */
 /* { dg-require-effective-target inf } */

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-march=rv32gcv_zvfh -mabi=ilp32d  -fno-vect-cost-model -fdump-tree-vect-details" } */
 
 #include <stdint-gcc.h>

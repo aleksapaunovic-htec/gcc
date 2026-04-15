@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64gcv -mabi=lp64d -mrvv-max-lmul=m8" } */
 
 #include "perm.h"

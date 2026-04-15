@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/59413 */
 
 typedef unsigned int uint32_t;

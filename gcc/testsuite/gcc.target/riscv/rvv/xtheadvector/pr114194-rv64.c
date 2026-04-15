@@ -1,4 +1,5 @@
 /* { dg-do compile { target { { ! riscv_abi_e } && rv64 } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_xtheadvector -O2" } */
 /* { dg-final { check-function-bodies "**" "" } } */
 

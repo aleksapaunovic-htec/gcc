@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Trivially making sure IPA-SRA does not introduce segfaults where they should
    not be.  */
 

@@ -4,6 +4,7 @@
    Incomplete array types used to not be unified, which broke aliasing.  */
 
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef long atype[];
 typedef long atype1[];

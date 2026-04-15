@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This used to generate unaligned accesses at -O2 because of IVOPTS.  */
 
 struct packed_struct

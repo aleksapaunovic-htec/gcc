@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned int u32;
 
 static const u32 deadfish = 0xdeadf155;

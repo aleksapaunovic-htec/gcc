@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftree-loop-distribution" } */
 
 static int a[10], b;

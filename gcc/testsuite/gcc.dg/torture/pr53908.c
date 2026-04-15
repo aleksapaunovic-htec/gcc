@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* SEGV at comment below.  */
 typedef unsigned int size_t;
 typedef enum har {

@@ -1,4 +1,5 @@
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static unsigned __attribute__((noinline, noclone))
 foo (unsigned long long u)

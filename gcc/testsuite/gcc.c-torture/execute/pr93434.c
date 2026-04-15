@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef struct creal_T {
   double re;
   double im;

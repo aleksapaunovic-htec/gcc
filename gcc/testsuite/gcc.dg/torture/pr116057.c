@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-Wno-psabi" } */
 
 #define vect8 __attribute__((vector_size(8)))

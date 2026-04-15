@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Verify we do not get a bogus access function pairs with
    exchanged dimensions, 0, {1, +, 1}_1 vs. {2B, +, 1}_1, 0 which

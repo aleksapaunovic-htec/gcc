@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_zve32f -mabi=ilp32d -O3 -mrvv-max-lmul=m2 -mrvv-vector-bits=zvl" } */
 
 union U

@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target lto } */
 /* { dg-additional-options "-flto" } */
 /* { dg-additional-sources pr98580-b.c } */

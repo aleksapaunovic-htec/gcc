@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* ifcvt accidentally deletes a referenced label while generating
    conditional traps on machines having such patterns */
 

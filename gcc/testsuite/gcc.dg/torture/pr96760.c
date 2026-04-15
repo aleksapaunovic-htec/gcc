@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 char a = 0, f = 0, c = 5;
 unsigned long d = 0;

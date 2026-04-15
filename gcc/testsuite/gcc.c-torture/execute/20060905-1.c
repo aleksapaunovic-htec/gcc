@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/28386 */
 /* Origin: Volker Reichelt <reichelt@gcc.gnu.org> */
 

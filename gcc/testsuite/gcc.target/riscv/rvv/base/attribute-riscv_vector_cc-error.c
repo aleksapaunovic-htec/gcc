@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -O1" } */
 
 __attribute__((riscv_vector_cc)) int var; /* { dg-warning "'riscv_vector_cc' attribute only applies to function types" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct A { int i, j; char pad[512]; } a;
 
 int __attribute__((noinline))

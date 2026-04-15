@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/69691 */
 
 char u[] = { 46, 97, 99, 104, 52, 0 };

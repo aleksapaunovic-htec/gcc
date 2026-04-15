@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O1 -march=rv64gv_zfh_zca_zcmp -mabi=lp64d -fno-shrink-wrap-separate" } */
 /* { dg-final { check-function-bodies "**" "" } } */
 

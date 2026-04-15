@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This used to fail on h8300.  */
 
 extern void abort (void);

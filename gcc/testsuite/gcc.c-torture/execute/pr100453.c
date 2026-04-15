@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 struct a {
   int b : 4;

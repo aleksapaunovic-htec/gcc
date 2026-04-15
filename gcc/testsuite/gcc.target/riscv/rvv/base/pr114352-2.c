@@ -1,5 +1,6 @@
 /* Test that we do not have ice when compile */
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc -mabi=lp64 -O3" } */
 
 #define DEF_ATTR_FUNC(ATTR, ID)                      \

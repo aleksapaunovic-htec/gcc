@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test __builtin_bswap64 . */
 
 unsigned long long g(unsigned long long a) __attribute__((noinline));

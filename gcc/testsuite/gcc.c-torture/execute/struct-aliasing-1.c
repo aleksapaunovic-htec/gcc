@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct S { float f; };
 int __attribute__((noinline))
 foo (int *r, struct S *p)

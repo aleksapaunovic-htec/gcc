@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /*  We used to simplify these incorrectly.  */
 __attribute__((noipa))
 long long

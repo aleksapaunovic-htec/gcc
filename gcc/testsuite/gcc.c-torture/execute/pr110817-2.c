@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef unsigned char u8;
 typedef unsigned __attribute__((__vector_size__ (8))) V;

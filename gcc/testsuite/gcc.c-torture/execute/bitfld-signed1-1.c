@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/114666 */
 /* We used to miscompile this to be always aborting
    due to the use of the signed 1bit into the COND_EXPR. */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This code was miscompiled at -O3 on x86.
    Reported by Jim Meyering; distilled from bash.  */
 

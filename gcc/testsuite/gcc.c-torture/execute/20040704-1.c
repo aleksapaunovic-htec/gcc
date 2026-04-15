@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 16348: Make sure that condition-first false loops DTRT.  */
 
 extern void abort ();

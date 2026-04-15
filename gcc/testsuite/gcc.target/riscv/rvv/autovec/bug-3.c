@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl512b -mabi=lp64d -mrvv-max-lmul=m8 -mrvv-vector-bits=scalable -fno-vect-cost-model -O2 -ffast-math" } */
 /* { dg-final { check-function-bodies "**" "" } } */
 

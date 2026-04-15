@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 struct S { int a; int b[24]; int c[24]; int d; };
 volatile int *p;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 signed char f() __attribute__((__noipa__));
 signed char f() { return 0; }
 int main()

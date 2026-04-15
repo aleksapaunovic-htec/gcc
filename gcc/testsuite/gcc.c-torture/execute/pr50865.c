@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/50865 */
 
 #define INT64_MIN (-__LONG_LONG_MAX__ - 1)

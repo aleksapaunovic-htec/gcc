@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #define bool _Bool
 
 bool f(int a, bool c) __attribute__((noinline));

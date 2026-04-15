@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvfh -mabi=lp64d -O3 -ftree-vectorize" } */
 
 #include <assert.h>

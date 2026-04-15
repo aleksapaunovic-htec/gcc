@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_zve32f_zvfh -mabi=ilp32f -O3" } */
 
 #include "pr110277-1.h"

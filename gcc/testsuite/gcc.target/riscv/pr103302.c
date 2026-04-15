@@ -1,4 +1,5 @@
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fharden-compares -fno-tree-dce -fno-tree-fre" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } } */
 

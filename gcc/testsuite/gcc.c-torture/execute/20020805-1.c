@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This testcase was miscompiled on IA-32, because fold-const
    assumed associate_trees is always done on PLUS_EXPR.  */
 

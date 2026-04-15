@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2003  Free Software Foundation.
 
    Test strcpy optimizations don't evaluate side-effects twice.

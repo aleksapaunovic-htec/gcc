@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* The non-destructive folder was always emitting >= when folding
    comparisons to signed_max+1.  */
 

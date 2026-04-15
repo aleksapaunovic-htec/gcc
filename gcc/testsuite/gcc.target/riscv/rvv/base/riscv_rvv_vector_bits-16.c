@@ -1,5 +1,6 @@
 
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl256b -mabi=lp64d -mrvv-vector-bits=scalable -O3" } */
 
 void test () {

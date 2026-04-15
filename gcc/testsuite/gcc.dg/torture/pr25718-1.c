@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 25718: invalid constant operand to the "bound" insn; error at
    assembly time.  We'll make sure the code is correct to: run a few
    example values.  */

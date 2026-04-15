@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-alias "" } */
 /* { dg-skip-if "BSS alias" { powerpc-ibm-aix* } } */
 int a[10]={};

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/8634 */
 /* Contributed by Glen Nakamura <glen at imodulo dot com> */
 

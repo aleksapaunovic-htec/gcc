@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/97421 */
 /* { dg-additional-options "-fmodulo-sched" } */
 

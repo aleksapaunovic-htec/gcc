@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void exit (int) __attribute__ ((noreturn));
 extern void abort (void) __attribute__ ((noreturn));

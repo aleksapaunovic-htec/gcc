@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64i -march=unset -mcpu=sifive-x280 -mabi=lp64 -misa-spec=20191213" } */
 int foo()
 {

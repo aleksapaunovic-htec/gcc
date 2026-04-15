@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Verify we do not get a bogus access function with 0B vs. 1B which
    disambiguates both accesses and leads to vectorization.  */

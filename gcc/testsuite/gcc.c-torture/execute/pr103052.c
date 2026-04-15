@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 static void js_error(void);
 static int top;
 static void js_throw(void)

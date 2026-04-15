@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* When comparisons of bit-fields to unsigned constants got shortened,
    the shortened signed constant was wrongly marked as overflowing,
    leading to a later integer_zerop failure and misoptimization.

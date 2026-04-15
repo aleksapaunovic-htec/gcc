@@ -1,5 +1,6 @@
 /* PR tree-optimization/57083 */
 /* { dg-do run { target int32plus } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 short x = 1;

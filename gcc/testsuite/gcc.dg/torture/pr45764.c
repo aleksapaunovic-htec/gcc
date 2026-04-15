@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "Too much RAM needed" { "avr-*-*" } } */
 
 int result[64][16];

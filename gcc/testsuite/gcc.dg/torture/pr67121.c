@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a[6], b, c = 226, d, e, f;
 signed char g;

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl128b -mabi=lp64d -fwhole-program -O3 -mrvv-vector-bits=zvl" } */
 
 extern int a[];

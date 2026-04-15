@@ -1,5 +1,6 @@
 /* PR tree-optimization/104280 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int
 foo (unsigned b, int c)

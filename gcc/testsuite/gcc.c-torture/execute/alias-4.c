@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-alias "" } */
 int a = 1;
 extern int b __attribute__ ((alias ("a")));

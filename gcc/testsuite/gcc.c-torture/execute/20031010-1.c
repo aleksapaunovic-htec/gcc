@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* A reminder to process ops in generate_expr_as_of_bb exactly once.  */
 
 void abort (void);

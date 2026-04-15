@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct S {
   short int i : 12;
   char c1 : 1;

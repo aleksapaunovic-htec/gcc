@@ -1,5 +1,6 @@
 /* Check whether the second -march overrides the first.  */
 /* { dg-do compile { target rv64 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64gc -march=sifive-p670" } */
 
 void

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fpermissive" } */
 
 unsigned int a[0x1000];

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -fno-vect-cost-model -O3 -mabi=lp64d -ffast-math" } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 

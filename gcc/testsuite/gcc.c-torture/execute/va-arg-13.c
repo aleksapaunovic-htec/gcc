@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* derived from mozilla source code */
 
 #include <stdarg.h>

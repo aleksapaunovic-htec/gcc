@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_zve64d -mabi=ilp32 -fno-schedule-insns -fno-schedule-insns2 -O3" } */
 /* { dg-final { check-function-bodies "**" "" } } */
 

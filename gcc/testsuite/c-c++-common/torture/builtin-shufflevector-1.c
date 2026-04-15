@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef long v4di __attribute__((vector_size(4 * sizeof (long))));
 typedef int v4si __attribute__((vector_size(4 * sizeof (int))));

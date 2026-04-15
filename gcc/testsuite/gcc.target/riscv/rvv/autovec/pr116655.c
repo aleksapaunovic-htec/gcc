@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64imv -mabi=lp64d -mrvv-max-lmul=dynamic" } */
 
 short a[5];

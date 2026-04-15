@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Make sure data-dependence analysis does not compute a bogus
   distance vector for the different sized accesses.  */

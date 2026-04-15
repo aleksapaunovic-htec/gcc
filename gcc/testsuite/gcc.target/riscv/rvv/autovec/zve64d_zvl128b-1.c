@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_zve64d_zvl128b -mabi=ilp32d -mrvv-vector-bits=scalable -fdump-tree-vect-details" } */
 
 #include "template-1.h"

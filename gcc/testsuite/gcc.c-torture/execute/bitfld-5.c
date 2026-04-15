@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* See http://gcc.gnu.org/ml/gcc/2009-06/msg00072.html.  */
 
 extern void abort (void);

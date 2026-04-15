@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int128 } */
 
 unsigned char m[] = {5, 79, 79, 79, 79};

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64gcv_zvl512b -mabi=lp64d -mno-vector-strict-align" } */
 
 /* Ensure we use strided loads.  */

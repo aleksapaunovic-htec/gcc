@@ -6,6 +6,7 @@
    Written by Kaveh Ghazi, 2003-09-05.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-ffast-math" } */
 /* { dg-skip-if "PR44214" { *-*-* } { "-O0" } { "" } } */
 

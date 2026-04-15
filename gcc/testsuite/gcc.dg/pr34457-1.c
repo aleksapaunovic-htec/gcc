@@ -1,5 +1,6 @@
 /* PR c/34457 */
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target trampolines } */
 /* { dg-require-effective-target lto } */
 /* { dg-options "-std=gnu17 -flto -O2" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 
 /* Ensure that we deallocate X when branching back before its

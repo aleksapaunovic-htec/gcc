@@ -1,5 +1,6 @@
 /* PR c/39855 */
 /* { dg-do run { target { int32plus } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 

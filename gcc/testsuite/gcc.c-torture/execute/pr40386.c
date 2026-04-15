@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fno-ira-share-spill-slots -Wno-shift-overflow" } */
 
 extern void abort (void);

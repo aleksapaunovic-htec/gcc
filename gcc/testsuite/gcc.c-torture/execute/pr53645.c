@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/53645 */
 /* { dg-options "-std=gnu89" } */
 

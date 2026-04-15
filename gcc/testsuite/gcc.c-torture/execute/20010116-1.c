@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Distilled from optimization/863.  */
 
 extern void abort (void);

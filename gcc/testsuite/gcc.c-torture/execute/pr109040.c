@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/109040 */
 
 typedef unsigned short __attribute__((__vector_size__ (32))) V;

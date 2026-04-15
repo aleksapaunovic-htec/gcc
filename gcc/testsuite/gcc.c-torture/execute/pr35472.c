@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 extern void *memset (void *s, int c, __SIZE_TYPE__ n);
 struct S { int i[16]; };

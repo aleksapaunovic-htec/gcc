@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* this is another case where phiopt
    would create -signed1bit which is undefined. */
 struct {

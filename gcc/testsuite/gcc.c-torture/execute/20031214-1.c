@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/10312 */
 /* Originator: Peter van Hoof <p dot van-hoof at qub dot ac dot uk> */
 

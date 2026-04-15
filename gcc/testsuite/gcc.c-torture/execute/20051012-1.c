@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu17" } */
 /* { dg-require-effective-target untyped_assembly } */
 extern void abort (void);

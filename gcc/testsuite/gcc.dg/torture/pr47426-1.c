@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fipa-pta" } */
 /* { dg-additional-sources "pr47426-2.c" } */
 

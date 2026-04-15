@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This tests the rotate patterns that some machines support.  */
 
 #include <limits.h>

@@ -6,6 +6,7 @@
    Origin: Kaveh R. Ghazi,  November 13, 2006.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fno-math-errno" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 

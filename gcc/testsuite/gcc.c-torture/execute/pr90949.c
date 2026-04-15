@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void __attribute__ ((noipa, noinline)) my_puts (const char *str) { }
 
 void __attribute__ ((noipa, noinline)) my_free (void *p) { }

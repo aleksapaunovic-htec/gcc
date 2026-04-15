@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR/107115 */
 /* { dg-additional-options "-fno-schedule-insns -fno-schedule-insns2" } */
 

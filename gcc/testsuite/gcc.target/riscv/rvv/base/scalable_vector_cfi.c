@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-g -O3 -march=rv64gcv -mabi=lp64d" } */
 /* { dg-skip-if "" { *-*-* } {"-O2" "-O1" "-O0" "-Og" "-Oz" "-flto"} } */
 /* { dg-final { scan-assembler {cfi_escape .*0x92,0xa2,0x38,0,0x32,0x1e} } } */

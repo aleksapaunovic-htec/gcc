@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Origin: Joseph Myers <jsm28@cam.ac.uk>.
 
    This tests for inconsistency in whether wide STRING_CSTs use the host

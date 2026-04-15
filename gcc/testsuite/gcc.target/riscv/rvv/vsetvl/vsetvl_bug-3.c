@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32d -O2 -fdump-rtl-vsetvl-details" } */
 
 #include "riscv_vector.h"

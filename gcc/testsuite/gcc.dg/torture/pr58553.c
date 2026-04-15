@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #define MAX_LENGTH 96
 #define SEQUENCE_LENGTH 31

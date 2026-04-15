@@ -1,5 +1,6 @@
 /* PR c/122188 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int
 foo (unsigned x, int y)

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv_zvfh -mabi=ilp32 -O3" } */
 
 #include "overloaded_vfadd.h"

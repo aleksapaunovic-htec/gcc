@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that calls to a function declared wiith attribute format (printf)
    don't get eliminated even if their result on success can be computed at
    compile time (they can fail).

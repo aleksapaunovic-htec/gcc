@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_zve64d_zvfh_zfh -mabi=lp64d -O3 -fno-vect-cost-model" } */
 
 long a[100], b[100], c[100];

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_zve64d_zvfh_zfh -mabi=lp64d -fdiagnostics-plain-output -flto -ffat-lto-objects -ftree-vectorize -fno-tree-loop-distribute-patterns -fno-vect-cost-model -fno-common -O3" } */
 
 #define VECTOR_BITS 512

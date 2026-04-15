@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void foo(int x, int y, int z, int d, int *buf)
 {
   for(int i = z; i < y-z; ++i)

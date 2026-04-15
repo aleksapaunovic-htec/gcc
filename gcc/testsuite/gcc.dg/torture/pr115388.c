@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int printf(const char *, ...);
 int a[10], b, c, d[0], h, i, j, k, l;

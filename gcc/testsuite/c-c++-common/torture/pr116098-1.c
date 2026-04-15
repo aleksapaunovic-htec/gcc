@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/116098 */
 /* truthy was being miscompiled where the VCE was not being pulled out
    of the if statement by factor_out_conditional_operation before the rest of

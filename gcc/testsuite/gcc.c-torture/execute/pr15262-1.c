@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 15262.
    The alias analyzer only considers relations between pointers and
    symbols.  If two pointers P and Q point to the same symbol S, then

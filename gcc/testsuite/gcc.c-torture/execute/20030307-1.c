@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/8726 */
 /* Originator: Paul Eggert <eggert@twinsun.com> */
 

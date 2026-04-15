@@ -1,5 +1,6 @@
 /* PR libstdc++/88101 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target size20plus } */
 
 typedef int T __attribute__((aligned (16384)));

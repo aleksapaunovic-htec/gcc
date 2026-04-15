@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Bad PTA results (incorrect store handling) was causing us to delete
    *na = 0 store.  */
 

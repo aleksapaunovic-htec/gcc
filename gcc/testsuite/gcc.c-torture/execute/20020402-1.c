@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* derived from PR c/2100 */
 
 extern void abort ();

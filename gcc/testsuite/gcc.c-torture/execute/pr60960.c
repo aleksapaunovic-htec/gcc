@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/60960 */
 
 typedef unsigned char v4qi __attribute__ ((vector_size (4)));

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -O0 -fself-test=$srcdir/selftests -mrvv-vector-bits=zvl -S" } */
 
 /* Verify that -fself-test does not fail on a non empty source.  */

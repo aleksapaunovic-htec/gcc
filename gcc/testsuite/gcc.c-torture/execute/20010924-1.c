@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that flexible arrays can be initialized from STRING_CST
    constructors. */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This used to fail as we would convert f into just return (unsigned int)usVlanID
    which is wrong. */
 

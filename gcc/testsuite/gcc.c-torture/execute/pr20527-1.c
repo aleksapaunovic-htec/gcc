@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/20527
    Mishandled postincrement.  This test-case is derived from the
    function BZ2_hbCreateDecodeTables in the file huffman.c from

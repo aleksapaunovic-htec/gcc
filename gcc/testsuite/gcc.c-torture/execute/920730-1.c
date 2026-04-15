@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* 920730-1.c */
 /* { dg-additional-options "-std=gnu89" } */
 #include <limits.h>

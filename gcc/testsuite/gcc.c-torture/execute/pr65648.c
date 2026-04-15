@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/65648 */
 
 int a = 0, *b = 0, c = 0;

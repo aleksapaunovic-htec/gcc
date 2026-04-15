@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -Ofast -Wno-implicit-int -Wno-implicit-function-declaration -Wno-int-conversion" } */
 
 a, c, d; /* { dg-warning "data definition has no type or storage class" } */

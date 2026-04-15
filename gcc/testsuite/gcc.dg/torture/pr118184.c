@@ -1,4 +1,5 @@
 /* { dg-do run { target { float128 && lp64 } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 union u1
 {

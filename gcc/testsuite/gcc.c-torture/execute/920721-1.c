@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void abort (void);
 void exit (int);
 long f(short a,short b){return (long)a/b;}

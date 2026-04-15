@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Make sure that language + abi extensions in passing S interoperate.  */
 
 static long long __attribute__((noinline))

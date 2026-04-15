@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/5354 */
 /* Verify that GCC preserves relevant stack slots.  */
 

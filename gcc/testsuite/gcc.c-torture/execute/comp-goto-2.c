@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target label_values } */
 /* { dg-require-effective-target trampolines } */
 /* { dg-add-options stack_size } */

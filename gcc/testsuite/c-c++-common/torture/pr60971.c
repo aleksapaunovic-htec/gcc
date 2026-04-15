@@ -1,5 +1,6 @@
 /* PR tree-optimization/60971 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #ifndef __cplusplus
 #define bool _Bool

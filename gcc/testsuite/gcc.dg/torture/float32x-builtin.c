@@ -1,5 +1,6 @@
 /* Test _Float32x built-in functions.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float32x } */
 /* { dg-add-options ieee } */

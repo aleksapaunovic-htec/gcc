@@ -1,6 +1,7 @@
 /* Test floating-point contraction occurs only within source language
    expressions.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c99 -pedantic-errors" } */
 /* { dg-skip-if "ptx only loosely follows IEEE" { "nvptx-*-*" } } */
 

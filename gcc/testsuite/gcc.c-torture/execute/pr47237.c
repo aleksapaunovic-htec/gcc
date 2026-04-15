@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-xfail-run-if "can cause stack underflow" { amdgcn-*-* } } */
 /* { dg-require-effective-target untyped_assembly } */
 #define INTEGER_ARG  5

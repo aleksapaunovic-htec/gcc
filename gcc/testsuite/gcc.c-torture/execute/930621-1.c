@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu89" } */
 /* The bit-field below would have a problem if __INT_MAX__ is too
    small.  */

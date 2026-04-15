@@ -1,5 +1,6 @@
 /* PR tree-optimization/69546 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 unsigned __int128
 foo (void)

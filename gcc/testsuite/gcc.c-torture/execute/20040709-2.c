@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test arithmetics on bitfields.  */
 /* { dg-require-effective-target int32plus } */
 

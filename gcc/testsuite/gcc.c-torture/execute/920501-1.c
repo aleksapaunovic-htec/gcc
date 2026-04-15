@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-additional-options "-std=gnu89" } */
 int s[2];

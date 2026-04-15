@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef unsigned char __attribute__((__vector_size__ (2))) U;
 typedef unsigned short S;

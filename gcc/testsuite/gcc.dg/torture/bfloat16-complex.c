@@ -1,5 +1,6 @@
 /* Test __bf16 complex arithmetic.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options bfloat16 } */
 /* { dg-require-effective-target bfloat16_runtime } */

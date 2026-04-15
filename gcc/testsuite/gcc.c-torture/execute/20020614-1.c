@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/6677 */
 /* Verify that GCC doesn't perform illegal simplifications
    when folding constants.  */

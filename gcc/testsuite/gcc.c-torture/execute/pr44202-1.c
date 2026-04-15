@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern __attribute__ ((__noreturn__)) void exit(int);
 extern __attribute__ ((__noreturn__)) void abort(void);
 __attribute__ ((__noinline__))

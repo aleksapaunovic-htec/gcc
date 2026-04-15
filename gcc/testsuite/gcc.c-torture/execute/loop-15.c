@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Bombed with a segfault on powerpc-linux.  doloop.c generated wrong
    loop count.  */
 void abort (void);

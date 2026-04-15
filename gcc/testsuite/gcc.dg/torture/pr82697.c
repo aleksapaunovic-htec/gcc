@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 __attribute__((noinline,noclone))
 void test(int *pi, long *pl, int f)

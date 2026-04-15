@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/20290  */
    
 /* We used to mis-optimize the second loop in main on at least ppc and

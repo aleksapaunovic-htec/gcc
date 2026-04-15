@@ -1,5 +1,6 @@
 /* Testcase for LLVM bug: https://github.com/llvm/llvm-project/issues/119646 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftrivial-auto-var-init=zero" } */
 
 int b = 208;

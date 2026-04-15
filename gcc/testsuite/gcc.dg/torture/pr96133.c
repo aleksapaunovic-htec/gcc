@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef int T;
 static const T a[2][3] __attribute__((aligned(2*sizeof(T)))) = { { 1, 2, 3 }, { 4, 5, 6 } };

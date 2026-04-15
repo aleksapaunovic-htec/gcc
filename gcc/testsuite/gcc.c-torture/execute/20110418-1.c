@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned long long uint64_t;
 void f(uint64_t *a, uint64_t aa) __attribute__((noinline));
 void f(uint64_t *a, uint64_t aa)

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 #define A(x) if (!(x)) abort ()
 

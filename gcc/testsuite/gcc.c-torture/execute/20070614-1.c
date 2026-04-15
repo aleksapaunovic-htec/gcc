@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 
 _Complex v = 3.0 + 1.0iF;

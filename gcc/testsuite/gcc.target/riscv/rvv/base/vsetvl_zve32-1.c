@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32imafc_zve32f_zvl128b -mabi=ilp32 -O2" } */
 
 struct S0

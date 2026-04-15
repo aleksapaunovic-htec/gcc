@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Origin: PR c/92 from Simon Marlow <t-simonm@microsoft.com>, adapted
    to a testcase by Joseph Myers <jsm28@cam.ac.uk>.
 */

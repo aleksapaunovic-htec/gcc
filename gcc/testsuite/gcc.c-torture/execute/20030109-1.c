@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/8032 */
 /* Verify that an empty initializer inside a partial
    parent initializer doesn't confuse GCC.  */

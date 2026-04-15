@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/85169 */
 
 typedef char V __attribute__((vector_size (64)));

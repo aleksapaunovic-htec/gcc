@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test to make sure memset of small old size works
    correctly. */
 #define SIZE 15

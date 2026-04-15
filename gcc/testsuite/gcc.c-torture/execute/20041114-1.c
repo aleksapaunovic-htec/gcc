@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that
    
    var <= 0 || ((long unsigned) (unsigned) (var - 1) < MAX_UNSIGNED_INT)

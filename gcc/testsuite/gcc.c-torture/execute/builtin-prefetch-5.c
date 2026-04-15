@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that __builtin_prefetch does no harm.
 
    Use addresses that are unlikely to be word-aligned.  Some targets

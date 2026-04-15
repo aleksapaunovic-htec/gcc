@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Origin: Aldy Hernandez <aldyh@redhat.com>
 
    Purpose: Test generic SIMD support.  This test should work

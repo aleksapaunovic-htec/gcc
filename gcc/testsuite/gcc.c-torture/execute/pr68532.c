@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -ftree-vectorize -fno-vect-cost-model" } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 

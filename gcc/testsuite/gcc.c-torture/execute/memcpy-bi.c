@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test builtin-memcpy (which may emit different code for different N).  */
 #include <string.h>
 

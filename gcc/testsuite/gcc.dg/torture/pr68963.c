@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static const float a[3] = { 1, 2, 3 };
 int b = 3;

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options ieee } */
 /* { dg-additional-options "-fsignaling-nans" } */
 /* Workaround for PR57484 on ia32: */

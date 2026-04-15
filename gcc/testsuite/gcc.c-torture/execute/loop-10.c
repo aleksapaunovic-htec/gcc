@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Reduced from PR optimization/5076, PR optimization/2847 */
 
 void abort (void);

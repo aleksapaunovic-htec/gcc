@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* m32c is already packed.  */
 /* { dg-skip-if "" { "m32c-*-*" } } */
 

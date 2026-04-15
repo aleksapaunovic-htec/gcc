@@ -1,4 +1,5 @@
 /* { dg-do run { target lp64 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-w -Wno-psabi" } */
 
 typedef unsigned char v64u8 __attribute__((vector_size(64)));

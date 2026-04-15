@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv32gcv -mabi=ilp32d" } */
 
 void f_vint8mf8x2_t () {vint8mf8x2_t t;} /* { dg-error {unknown type name 'vint8mf8x2_t'} } */

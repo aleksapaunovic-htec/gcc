@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef long long V
   __attribute__ ((vector_size (2 * sizeof (long long)), may_alias));

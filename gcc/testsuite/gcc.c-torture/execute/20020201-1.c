@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test whether division by constant works properly.  */
 
 extern void abort (void);

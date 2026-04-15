@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/84071 */
 /* Reported by Wilco <wilco@gcc.gnu.org> */
 

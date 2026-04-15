@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/60116 */
 /* Reported by Zhendong Su <su@cs.ucdavis.edu> */
 

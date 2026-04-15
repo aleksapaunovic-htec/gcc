@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/90348 */
 
 void __attribute__ ((noipa))

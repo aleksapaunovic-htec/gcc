@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/80426 */
 /* Testcase by <ishiura-compiler@ml.kwansei.ac.jp> */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Simple alignment checks;
    looking for compiler/assembler alignment disagreements,
    agreement between struct initialization and access.  */

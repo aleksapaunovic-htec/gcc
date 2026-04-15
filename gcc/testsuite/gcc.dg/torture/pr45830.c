@@ -1,5 +1,6 @@
 /* PR tree-optimization/45830 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-tree-switch-conversion" { target avr-*-* } } */
 
 extern void abort (void);

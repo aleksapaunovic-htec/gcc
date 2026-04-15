@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/11087
    This testcase was miscompiled on ppc64, because basic_induction_var called
    convert_modes, yet did not expect it to emit any new instructions.

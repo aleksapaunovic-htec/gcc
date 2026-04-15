@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #if (__SIZEOF_INT__ == 2)
 #define TESTVALUE 0x1234
 #else

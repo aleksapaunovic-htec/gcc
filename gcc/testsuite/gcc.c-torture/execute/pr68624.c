@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int b, c, d, e = 1, f, g, h, j;
 
 static int

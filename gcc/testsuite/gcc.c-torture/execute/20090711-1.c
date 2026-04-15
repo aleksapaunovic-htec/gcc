@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Used to be miscompiled at -O0 due to incorrect choice of sign extension
    vs. zero extension.  __attribute__ ((noinline)) added to try to make it
    fail at higher optimization levels too.  */

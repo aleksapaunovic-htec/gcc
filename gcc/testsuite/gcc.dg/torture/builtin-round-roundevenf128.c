@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options float128 } */
 /* { dg-require-effective-target float128 } */
 

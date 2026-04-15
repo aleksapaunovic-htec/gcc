@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 union U { int i; _Bool b; char c; };

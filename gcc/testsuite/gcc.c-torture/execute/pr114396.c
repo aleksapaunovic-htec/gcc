@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/114396 */
 /* { dg-additional-options "-fwrapv -fno-vect-cost-model" } */
 

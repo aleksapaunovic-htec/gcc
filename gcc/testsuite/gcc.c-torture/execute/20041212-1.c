@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* A function pointer compared with a void pointer should not be canonicalized.
    See PR middle-end/17564.  */
 void abort (void);

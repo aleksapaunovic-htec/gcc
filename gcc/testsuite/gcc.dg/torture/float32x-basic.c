@@ -1,5 +1,6 @@
 /* Test _Float32x.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-Wno-old-style-definition" } */
 /* { dg-add-options float32x } */
 /* { dg-require-effective-target float32x_runtime } */

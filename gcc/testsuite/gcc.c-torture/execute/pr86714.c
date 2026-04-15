@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86714 - tree-ssa-forwprop.c confused by too
    long initializer
 

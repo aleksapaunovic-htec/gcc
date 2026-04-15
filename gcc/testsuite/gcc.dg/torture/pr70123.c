@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fPIC" { target fpic } } */
 __attribute__ ((noinline, noclone)) int
 bar (int flag, const char *__restrict format, ...)

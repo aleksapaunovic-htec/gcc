@@ -1,5 +1,6 @@
 /* PR tree-optimization/53366 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 

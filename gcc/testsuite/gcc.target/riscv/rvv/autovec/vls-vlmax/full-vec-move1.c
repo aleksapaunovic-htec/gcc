@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=c99 -O3 -march=rv64gcv_zvl128b -mabi=lp64d -fno-vect-cost-model -mrvv-vector-bits=zvl" } */
 
 #include <stdint-gcc.h>

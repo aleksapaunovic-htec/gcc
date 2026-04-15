@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 
 /* Failed on sparc with -mv8plus because sparc.c:set_extends() thought

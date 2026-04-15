@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-sources "pr53272-2.c" } */
 struct rtc_class_ops {
  int (*f)(void *, unsigned int enabled);

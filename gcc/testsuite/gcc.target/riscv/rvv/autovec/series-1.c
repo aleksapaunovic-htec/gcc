@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32d -mrvv-vector-bits=zvl -mrvv-max-lmul=m4" } */
 
 #include <stdint-gcc.h>

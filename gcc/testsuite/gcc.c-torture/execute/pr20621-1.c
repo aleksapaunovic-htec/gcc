@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-stack-size "0x10000" } */
 
 /* When generating o32 MIPS PIC, main's $gp save slot was out of range

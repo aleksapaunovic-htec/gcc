@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test case contributed by Ingo Rohloff <rohloff@in.tum.de>.
    Code distilled from Linux kernel.  */
 

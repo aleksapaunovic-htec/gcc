@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_zbs -mabi=lp64d" { target { riscv64*-*-* } } } */
 /* { dg-options "-march=rv32gc_zbs -mabi=ilp32" { target { riscv32*-*-* } } } */
 #include <stdint-gcc.h>

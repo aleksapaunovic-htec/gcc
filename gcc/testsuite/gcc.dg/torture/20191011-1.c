@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fgimple -fstrict-aliasing" } */
 
 #if __SIZEOF_INT__ != __SIZEOF_FLOAT__

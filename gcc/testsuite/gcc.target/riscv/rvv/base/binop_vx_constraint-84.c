@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32 -O3" } */
 // PR113249
 /* { dg-additional-options "-fno-schedule-insns -fno-schedule-insns2" } */

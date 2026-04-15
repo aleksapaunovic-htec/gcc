@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target longlong64 } */
 
 long long a = 568513516876543756;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/79388 */
 /* { dg-additional-options "-fno-tree-coalesce-vars" } */
 

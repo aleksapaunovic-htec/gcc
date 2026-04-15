@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 unsigned char g_5;
 
 void func_1 (void)

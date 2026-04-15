@@ -1,5 +1,6 @@
 /* Test __builtin_{add,sub,mul}_overflow_p.  */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
 
 #define OVFP

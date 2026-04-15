@@ -1,5 +1,6 @@
 /* PR54219 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 

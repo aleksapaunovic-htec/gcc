@@ -1,5 +1,6 @@
 /* PR middle-end/81814 */
 /* { dg-do run { target int32plus } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int
 main ()

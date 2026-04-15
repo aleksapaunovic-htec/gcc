@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2000  Free Software Foundation.
 
    by Manfred Hollstein <manfredh@redhat.com>  */

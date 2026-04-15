@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -flto --param partial-inlining-entry-probability=100" } */
 /* { dg-require-effective-target lto } */
 

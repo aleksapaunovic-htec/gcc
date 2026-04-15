@@ -1,4 +1,5 @@
 /* { dg-do run { target lto } }
+/* { dg-require-effective-target riscv_v_ok } */
  * { dg-options "-std=gnu23 -flto -O2" }
  */
 

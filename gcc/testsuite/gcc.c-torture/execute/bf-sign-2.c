@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* 
  This test checks promotion of bitfields.  Bitfields should be promoted
  very much like chars and shorts: 

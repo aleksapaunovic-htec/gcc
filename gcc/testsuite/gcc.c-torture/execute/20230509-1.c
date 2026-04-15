@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int __attribute__((noipa)) f(unsigned a, int b)
 {
   if (a < 0) __builtin_unreachable();

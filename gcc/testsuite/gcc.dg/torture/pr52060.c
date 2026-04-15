@@ -1,5 +1,6 @@
 /* PR rtl-optimization/52060 */
 /* { dg-do run { target int32plus } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 union U { float f; unsigned int i; };

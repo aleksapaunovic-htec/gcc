@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int f(long long a) __attribute__((noinline,noclone));
 int f(long long a)
 {

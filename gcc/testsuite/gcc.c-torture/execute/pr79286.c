@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int a = 0, c = 0;
 static int d[][8] = {};
 

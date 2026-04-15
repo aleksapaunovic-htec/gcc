@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* IPA PTA disables local PTA recompute after IPA.  */
 /* { dg-additional-options "-fipa-pta" } */
 

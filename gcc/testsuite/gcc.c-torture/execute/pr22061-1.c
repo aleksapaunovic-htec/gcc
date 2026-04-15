@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fpermissive" } */
 int N = 1;
 void foo() {} /* Necessary to trigger the original ICE.  */

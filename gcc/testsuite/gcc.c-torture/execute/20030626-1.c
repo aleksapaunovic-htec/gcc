@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char buf[10];
 
 extern void abort (void);

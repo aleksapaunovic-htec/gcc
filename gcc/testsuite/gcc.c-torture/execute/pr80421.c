@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/80421 */
 
 __attribute__ ((noinline, noclone)) void

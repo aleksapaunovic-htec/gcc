@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -march=rv32gc -mabi=ilp32d -mtune=sifive-7-series" { target { rv32 } } } */
 /* { dg-options "-O2 -march=rv64gc -mabi=lp64d -mtune=sifive-7-series" {target { rv64 } } } */
 

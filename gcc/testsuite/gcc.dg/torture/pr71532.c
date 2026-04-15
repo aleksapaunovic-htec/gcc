@@ -1,5 +1,6 @@
 /* PR rtl-optimization/71532 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mtune=slm" { target i?86-*-* x86_64-*-* } } */
 
 __attribute__((noinline, noclone, pure)) int

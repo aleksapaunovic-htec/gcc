@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR ipa/117432 */
 
 #include <stdarg.h>

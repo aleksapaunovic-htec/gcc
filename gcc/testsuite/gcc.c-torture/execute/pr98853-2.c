@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/98853 */
 
 #if __SIZEOF_INT__ == 4 && __SIZEOF_LONG_LONG__ == 8

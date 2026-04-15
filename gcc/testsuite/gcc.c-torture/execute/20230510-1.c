@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This code shows up in worse_state in ipa-pure-const.cc:
    *looping = MAX (*looping, looping2);
    was miscompiling it as just `return 1` though instead of

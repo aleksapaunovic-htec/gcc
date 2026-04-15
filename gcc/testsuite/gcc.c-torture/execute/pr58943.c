@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/58943 */
 
 unsigned int x[1] = { 2 };

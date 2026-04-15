@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/78791 */
 
 __attribute__((used, noinline, noclone)) unsigned long long

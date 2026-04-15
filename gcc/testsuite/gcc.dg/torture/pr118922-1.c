@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/118922 */
 
 /* Phi-opt would convert:

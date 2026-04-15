@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fwrapv" } */
 
 static void __attribute__((noinline,noclone))

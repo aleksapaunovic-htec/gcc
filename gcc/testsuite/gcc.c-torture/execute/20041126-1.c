@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern int abs (int);
 extern void abort (void);
 

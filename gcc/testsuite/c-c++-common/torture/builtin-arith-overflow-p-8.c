@@ -1,5 +1,6 @@
 /* Test __builtin_{add,sub}_overflow_p on {,un}signed short.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
 
 typedef signed short int S;

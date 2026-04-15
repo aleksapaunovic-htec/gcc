@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 const char *__attribute__((noinline))
 foo (const char *p)
 {

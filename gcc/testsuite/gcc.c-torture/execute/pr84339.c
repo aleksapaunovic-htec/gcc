@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/84339 */
 
 struct S { int a; char b[1]; };

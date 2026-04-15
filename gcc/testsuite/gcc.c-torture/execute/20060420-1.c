@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 
 typedef float v4flt __attribute__ ((vector_size (16)));

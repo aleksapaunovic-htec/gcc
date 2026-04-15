@@ -1,5 +1,6 @@
 /* PR tree-optimization/86274 - SEGFAULT when logging std::to_string(NAN)
    { dg-do run }
+/* { dg-require-effective-target riscv_v_ok } */
    { dg-options "-O2 -Wall" }
    { dg-additional-options "-Wl,-u,_printf_float" { target newlib_nano_io } } */
 

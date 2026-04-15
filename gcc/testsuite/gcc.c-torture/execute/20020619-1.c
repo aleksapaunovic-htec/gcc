@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void abort (void);
 #if (__SIZEOF_INT__ == 4)
 typedef int int32;

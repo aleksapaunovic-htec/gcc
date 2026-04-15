@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a = 0, b = 1, c = 0, d = 1, e, f, g, h;
 int

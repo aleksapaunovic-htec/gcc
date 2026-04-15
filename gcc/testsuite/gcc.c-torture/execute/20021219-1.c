@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/8988 */
 /* Contributed by Kevin Easton */
 

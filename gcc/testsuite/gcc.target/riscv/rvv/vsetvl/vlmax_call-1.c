@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mrvv-vector-bits=scalable -march=rv32gcv -mabi=ilp32 -O3 -fno-tree-vectorize" } */
 
 #include "riscv_vector.h"

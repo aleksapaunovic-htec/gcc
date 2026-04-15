@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #ifdef __SIZEOF_INT128__
 typedef __int128 L;
 #else

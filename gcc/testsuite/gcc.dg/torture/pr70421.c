@@ -1,5 +1,6 @@
 /* PR target/70421 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 /* { dg-additional-options "-Wno-psabi -w" } */
 

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 double s[4] = { 1.0, 2.0, 3.0, 4.0 }, pol_x[2] = { 5.0, 6.0 };
 

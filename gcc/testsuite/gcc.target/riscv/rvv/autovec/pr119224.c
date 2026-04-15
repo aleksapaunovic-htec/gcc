@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -ffast-math -march=rv64gcv_zvl256b -mabi=lp64d -mtune=generic-ooo -mrvv-vector-bits=zvl" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" "-O1" "-O2" "-Og" "-Os" "-Oz" } } */
 

@@ -1,5 +1,6 @@
 /* PR middle-end/115527 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 struct T { struct S { double a; signed char b; long c; } d[3]; int e; } t1, t2;
 

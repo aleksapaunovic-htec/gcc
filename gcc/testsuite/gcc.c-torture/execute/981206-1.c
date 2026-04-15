@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify unaligned address aliasing on Alpha EV[45].  */
 
 void abort (void);

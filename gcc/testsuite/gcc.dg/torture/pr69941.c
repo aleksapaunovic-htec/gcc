@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #if __SIZEOF_INT__ < 4
 __extension__ typedef __INT32_TYPE__ int32_t;

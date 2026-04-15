@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct assembly_operand
 {
   int type, value, symtype, symflags, marker;

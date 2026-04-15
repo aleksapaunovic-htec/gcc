@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that sibling call is not used if there is an argument overlap.  */
 
 extern void abort (void);

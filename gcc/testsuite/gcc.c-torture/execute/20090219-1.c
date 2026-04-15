@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* On ARM, BAR used to get a bogus number in E due to stack
    misalignment.  */
 

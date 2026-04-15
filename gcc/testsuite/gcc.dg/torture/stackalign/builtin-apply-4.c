@@ -1,5 +1,6 @@
 /* PR tree-optimization/20076 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fgnu89-inline" } */
 /* { dg-require-effective-target untyped_assembly } */
 /* { dg-xfail-run-if "can cause stack underflow" { amdgcn-*-* } } */

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_xtheadvector -mabi=ilp32 -O0" } */
 
 #include "riscv_vector.h"

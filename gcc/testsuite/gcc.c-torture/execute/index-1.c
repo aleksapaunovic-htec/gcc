@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "strict reloc overflow checking" { msp430-*-* } { "*" } { "-mcpu=msp430" "-mlarge"} } */
 
 void abort (void);

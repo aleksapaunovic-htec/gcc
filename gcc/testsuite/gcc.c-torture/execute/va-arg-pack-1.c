@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* __builtin_va_arg_pack () builtin tests.  */
 
 #include <stdarg.h>

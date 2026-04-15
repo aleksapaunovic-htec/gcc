@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mtune=pentiumpro" { target ia32 } } */
 /* { dg-additional-options "-minline-all-stringops" { target { i?86-*-* x86_64-*-* } } } */
 

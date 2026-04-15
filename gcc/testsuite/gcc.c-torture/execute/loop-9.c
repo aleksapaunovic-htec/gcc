@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Source: Neil Booth, from PR # 115.  */
 /* { dg-additional-options "-std=gnu17" } */
 

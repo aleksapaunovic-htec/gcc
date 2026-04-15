@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that __builtin_prefetch does no harm.
 
    Check that the expression containing the address to prefetch is

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/101529 */
 
 typedef unsigned char __attribute__((__vector_size__ (1))) W;

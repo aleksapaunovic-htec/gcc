@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/85925 */
 /* { dg-require-effective-target int32plus } */
 /* Testcase by <sudi@gcc.gnu.org> */

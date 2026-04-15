@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "small alignment" { pdp11-*-* } } */
 
 void abort (void);

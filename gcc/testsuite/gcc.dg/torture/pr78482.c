@@ -1,5 +1,6 @@
 /* PR tree-optimization/78482 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 short a = 65531;
 int b = 3, f;

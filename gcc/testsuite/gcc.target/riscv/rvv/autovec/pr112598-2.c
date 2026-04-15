@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvfh_zfh_zvl512b -mabi=lp64d -O3 -mrvv-max-lmul=m8" } */
 
 #include <stdint-gcc.h>

@@ -1,5 +1,6 @@
 /* PR tree-optimization/117420 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a;
 

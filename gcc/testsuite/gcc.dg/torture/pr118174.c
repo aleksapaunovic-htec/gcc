@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int __attribute__((noipa))
 foo (signed char *p1, signed char *p2)

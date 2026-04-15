@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int foo(int i)
 {
   return ((int)((unsigned)(i + 1) * 4)) / 4;

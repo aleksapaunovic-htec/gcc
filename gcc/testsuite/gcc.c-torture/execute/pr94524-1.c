@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/94524 */
 
 typedef signed char __attribute__ ((__vector_size__ (16))) V;

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static int heap[2*(256 +1+29)+1];
 static int heap_len;

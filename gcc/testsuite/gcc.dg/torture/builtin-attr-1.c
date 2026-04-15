@@ -7,6 +7,7 @@
    Written by Kaveh Ghazi, 2003-08-04.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-ffast-math" } */
 
 /* These are helper macros to test combinations of functions.  We test

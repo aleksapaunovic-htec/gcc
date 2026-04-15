@@ -1,4 +1,5 @@
 /* { dg-do run }  */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 /* We use -ftrapv so that when SCEV final value replacement introduces
    undefined overflow we trap.  UBSAN inhibits final value replacement.  */

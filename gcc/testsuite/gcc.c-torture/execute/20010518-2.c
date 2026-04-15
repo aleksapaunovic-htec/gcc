@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Mis-aligned packed structures.  */
 
 void abort (void);

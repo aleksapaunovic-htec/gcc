@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-sources "pr94947-2.c" } */
 /* { dg-additional-options "-fipa-pta -flto-partition=1to1" } */
 /* { dg-prune-output "warning: using serial compilation" } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int foo (int b, int c)
 {
   int x;

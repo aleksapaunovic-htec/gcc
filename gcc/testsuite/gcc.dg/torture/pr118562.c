@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-march=rv64gv -mabi=lp64" { target { rv64 } } } */
 
 float b[2], c[2];

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char B[256 * sizeof(void *)];
 typedef void *FILE;
 typedef struct globals {

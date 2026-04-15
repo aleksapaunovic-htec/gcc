@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target supports_stack_clash_protection } */
 /* { dg-options "-O3 -march=rv64gcv -mabi=lp64d -fstack-clash-protection" } */
 

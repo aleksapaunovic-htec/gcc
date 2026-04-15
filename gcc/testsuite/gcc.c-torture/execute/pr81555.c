@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/81555 */
 
 unsigned int a = 1, d = 0xfaeU, e = 0xe376U;

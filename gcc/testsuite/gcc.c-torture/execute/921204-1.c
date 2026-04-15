@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* The bit-field below would have a problem if __INT_MAX__ is too
    small.  */
 void abort (void);

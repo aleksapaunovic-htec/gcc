@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/13313 */
 /* Origin: Mike Lerwill <mike@ml-solutions.co.uk> */
 

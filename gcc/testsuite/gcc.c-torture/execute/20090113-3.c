@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct obstack {};
 struct bitmap_head_def;
 typedef struct bitmap_head_def *bitmap;

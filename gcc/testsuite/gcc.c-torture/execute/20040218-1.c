@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/14209.  Bug in cris.md, shrinking access size of
    postincrement.
    Origin: <hp@axis.com>.  */

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target size32plus } */
 
 /* Large so an out-of-bound read will crash.  */

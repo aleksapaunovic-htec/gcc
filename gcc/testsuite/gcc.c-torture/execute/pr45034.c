@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 static void fixnum_neg(signed char x, signed char *py, int *pv)
 {

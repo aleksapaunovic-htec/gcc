@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/5430 */
 /* Verify that the multiplicative folding code is not fooled
    by the mix between signed variables and unsigned constants. */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int *ptr1 = 0, **ptr2 = &ptr1;
 
 int *identity(int *p)

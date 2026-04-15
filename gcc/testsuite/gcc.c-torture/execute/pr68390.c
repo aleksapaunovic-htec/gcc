@@ -1,4 +1,5 @@
 /* { dg-do run }  */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2" } */
 
 __attribute__ ((noinline))

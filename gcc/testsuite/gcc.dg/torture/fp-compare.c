@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* Check that find_scan_insn properly handles swapped FP comparisons.  */
 static double x;
 static int exit_code;

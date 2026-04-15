@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/60941 */
 /* Reported by Martin Husemann <martin@netbsd.org> */
 

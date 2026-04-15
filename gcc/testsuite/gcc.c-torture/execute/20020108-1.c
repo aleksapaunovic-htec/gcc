@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This file tests shifts in various integral modes.  */
 
 #include <limits.h>

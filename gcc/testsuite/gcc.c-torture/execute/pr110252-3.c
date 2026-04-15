@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 unsigned int a = 1387579096U;
 void sinkandcheck(unsigned b) __attribute__((noipa));

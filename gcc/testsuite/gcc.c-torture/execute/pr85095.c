@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/85095 */
 
 __attribute__((noipa)) unsigned long

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d --param=fpr2vr-cost=1" } */
 
 #include "vf-1-f64.c"

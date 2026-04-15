@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void exit (int);
 
 int f(unsigned number_of_digits_to_use)

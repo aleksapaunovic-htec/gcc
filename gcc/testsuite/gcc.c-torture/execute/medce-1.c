@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 extern void link_error (void);

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/33238 */
 
 typedef __SIZE_TYPE__ size_t;

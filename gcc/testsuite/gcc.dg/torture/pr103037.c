@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static inline const unsigned short *
 min(unsigned short *d, const unsigned short *e)

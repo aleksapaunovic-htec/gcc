@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a, b = 1, c = 1, e, f = 1, g, h, j;
 volatile int d;

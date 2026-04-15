@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test to verify that strlen() calls with conditional expressions
    and unterminated arrays or pointers to such things as arguments
    are evaluated without making assumptions about array sizes.  */

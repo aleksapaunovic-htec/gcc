@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2002 Free Software Foundation.
 
    Test for composite comparison always true/false optimization.

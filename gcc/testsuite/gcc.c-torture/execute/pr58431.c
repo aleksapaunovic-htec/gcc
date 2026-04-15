@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char a, h;
 int b, d, e, g, j, k;
 volatile int c;

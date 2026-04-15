@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 #define func_name(outer,inner,cst) outer##inner##_##cst
 #define func_name_v(outer,inner,cst) outer##inner##_##cst##_v

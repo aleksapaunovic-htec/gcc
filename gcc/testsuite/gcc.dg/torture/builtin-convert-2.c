@@ -6,6 +6,7 @@
    Written by Kaveh ghazi, 2004-04-26.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-ffast-math" } */
 
 #include "../builtins-config.h"

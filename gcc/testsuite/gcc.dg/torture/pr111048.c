@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mavx2" { target avx2_runtime } } */
 
 typedef unsigned char u8;

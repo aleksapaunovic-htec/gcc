@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fgnu89-inline" } */
 
 extern void exit (int);

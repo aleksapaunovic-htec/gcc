@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86532 - Wrong code due to a wrong strlen folding
    starting with r262522
    Exercise strlen() with a multi-dimensional array of strings with

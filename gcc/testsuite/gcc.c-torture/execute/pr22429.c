@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 
 #define N	(1 << (sizeof(int) * __CHAR_BIT__ - 2))

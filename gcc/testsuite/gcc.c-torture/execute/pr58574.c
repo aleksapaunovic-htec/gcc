@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/58574 */
 
 __attribute__((noinline, noclone)) double

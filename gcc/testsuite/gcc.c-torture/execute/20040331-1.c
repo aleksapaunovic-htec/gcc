@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c++/14755 */
 extern void abort (void);
 extern void exit (int);

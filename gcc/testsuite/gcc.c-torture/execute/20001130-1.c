@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void abort(void);
 static inline int bar(void) { return 1; }
 static int mem[3];

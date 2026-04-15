@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test against a problem with loop reversal.  */
 void abort (void);
 void exit (int);

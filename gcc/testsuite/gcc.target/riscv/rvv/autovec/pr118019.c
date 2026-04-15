@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64gcv_zvl512b -mabi=lp64d -mstrict-align -mvector-strict-align" } */
 
 /* Make sure we do not construct the vector element-wise despite

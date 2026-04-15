@@ -1,5 +1,6 @@
 /* PR middle-end/69909 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-w" } */
 
 typedef unsigned V __attribute__ ((vector_size (32)));

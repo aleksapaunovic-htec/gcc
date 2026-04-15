@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #define INT_MIN ( -__INT_MAX__ - 1 )
 

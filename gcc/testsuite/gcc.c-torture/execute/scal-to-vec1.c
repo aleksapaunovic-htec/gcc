@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #define vector(elcount, type)  \
 __attribute__((vector_size((elcount)*sizeof(type)))) type
 

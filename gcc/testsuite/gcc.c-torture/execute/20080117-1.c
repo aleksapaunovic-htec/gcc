@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef struct gs_imager_state_s {
   struct {
     int half_width;

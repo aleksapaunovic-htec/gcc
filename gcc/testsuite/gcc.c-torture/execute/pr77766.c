@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char a;
 short b, d = 5, h;
 char c[1];

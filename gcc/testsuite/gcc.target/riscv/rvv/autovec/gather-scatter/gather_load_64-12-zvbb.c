@@ -1,4 +1,5 @@
 /* { dg-do compile { target { ! riscv_abi_e } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options "riscv_v" } */
 /* { dg-add-options "riscv_zvbb" } */
 /* { dg-additional-options "-fno-vect-cost-model -fdump-tree-vect-details -mrvv-max-lmul=m4" } */

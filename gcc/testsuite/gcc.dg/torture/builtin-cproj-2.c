@@ -8,6 +8,7 @@
    Origin: Kaveh R. Ghazi,  April 9, 2010.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-ffinite-math-only" } */
 
 /* All references to link_error should go away at compile-time.  The

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Produced a overflow in ifcvt.c, causing S to contain 0xffffffff7fffffff.  */
 
 void abort (void);

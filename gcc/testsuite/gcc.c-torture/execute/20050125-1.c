@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that the CALL sideeffect isn't optimized away.  */
 /* Contributed by Greg Parker  25 Jan 2005  <gparker@apple.com> */
 

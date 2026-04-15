@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "requires io" { freestanding } }  */
 
 /* Program to test gcc's usage of the gofast library.  */

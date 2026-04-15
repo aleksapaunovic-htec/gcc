@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/87623 */
 /* Testcase by George Thopas <george.thopas@gmail.com> */
 

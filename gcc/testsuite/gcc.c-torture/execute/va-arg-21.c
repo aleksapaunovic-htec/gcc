@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2000  Free Software Foundation.
 
    If the argument to va_end() has side effects, test whether side

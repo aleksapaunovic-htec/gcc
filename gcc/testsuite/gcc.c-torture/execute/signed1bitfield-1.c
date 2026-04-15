@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/115154 */
 /* This was being miscompiled to `(signed:1)(t*5)`
    being transformed into `-((signed:1)t)` which is undefined.

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 unsigned a = 0xFFFFFFFF;
 int b;

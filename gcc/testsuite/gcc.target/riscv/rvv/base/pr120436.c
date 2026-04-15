@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc -mabi=lp64d -O0" } */
 
 /* Use -O0 as otherwise the unused intrinsics get

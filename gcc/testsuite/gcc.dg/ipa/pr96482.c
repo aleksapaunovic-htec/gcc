@@ -1,5 +1,6 @@
 /* PR ipa/96482 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -flto"  } */
 /* { dg-require-effective-target lto } */
 

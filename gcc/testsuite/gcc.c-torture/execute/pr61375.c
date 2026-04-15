@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #ifdef __UINT64_TYPE__
 typedef __UINT64_TYPE__ uint64_t;
 #else

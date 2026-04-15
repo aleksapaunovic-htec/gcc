@@ -1,6 +1,7 @@
 /* Test complex arithmetic with signed zeros.  Pure complex
    multiplication with -1.0 + 0.0i.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=gnu99" { target c } } */
 /* { dg-skip-if "double support is incomplete" { "avr-*-*" } } */
 

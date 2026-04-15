@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Testcase for PR fortran/9974.  This was a miscompilation of the g77
    front-end caused by the jump bypassing optimizations not handling
    instructions inserted on CFG edges.  */

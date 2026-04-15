@@ -1,5 +1,6 @@
 /* PR tree-optimization/67916 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a[6], b = 1, d, e;
 long long c;

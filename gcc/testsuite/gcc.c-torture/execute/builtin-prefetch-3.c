@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that __builtin_prefetch does no harm.
 
    Prefetch data using a variety of storage classes and address

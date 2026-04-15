@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32 -Ofast -ftree-vectorize -mrvv-max-lmul=dynamic" } */
 
 typedef struct rtx_def *rtx;

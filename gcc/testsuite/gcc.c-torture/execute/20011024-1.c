@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test whether store motion recognizes pure functions as potentially reading
    any memory.  */
 

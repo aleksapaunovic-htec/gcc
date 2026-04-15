@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zfh_zvfhmin -mabi=lp64d -O3 -ftree-vectorize -fno-vect-cost-model" } */
 
 void test (_Float16 *dest, _Float16 bias) {

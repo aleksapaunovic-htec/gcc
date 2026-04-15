@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -Wno-int-conversion -Wno-implicit-function -Wno-incompatible-pointer-types -Wno-implicit-function-declaration -Ofast -ftree-vectorize" } */
 
 typedef struct

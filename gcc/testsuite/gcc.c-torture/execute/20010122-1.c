@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "requires frame pointers" { *-*-* } "-fomit-frame-pointer" "" } */
 /* { dg-require-effective-target return_address } */
 

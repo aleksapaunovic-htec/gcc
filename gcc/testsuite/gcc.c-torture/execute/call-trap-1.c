@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Undefined behavior from a call to a function cast to a different
    type does not appear until after the function designator and
    arguments have been evaluated.  PR 38483.  */

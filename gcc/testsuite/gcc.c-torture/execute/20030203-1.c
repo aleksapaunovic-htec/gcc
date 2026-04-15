@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void f(int);
 int do_layer3(int single)
 {

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fpermissive" } */
 
 f1 (unsigned int x, unsigned int y)

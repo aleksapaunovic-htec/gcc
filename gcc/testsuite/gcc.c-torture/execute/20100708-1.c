@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/44843 */
 /* Verify that we don't use the alignment of struct S for inner accesses.  */
 

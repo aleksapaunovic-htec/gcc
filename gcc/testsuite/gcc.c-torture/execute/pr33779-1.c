@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int foo(int i)
 {
   if (((unsigned)(i + 1)) * 4 == 0)

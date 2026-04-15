@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu89" } */
 
 __extension__ typedef __PTRDIFF_TYPE__ ptr_t;

@@ -1,5 +1,6 @@
 /* PR debug/43557 */
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target lto } */
 /* { dg-options "-flto -g -O2" } */
 /* { dg-additional-sources "pr43557-2.c" } */

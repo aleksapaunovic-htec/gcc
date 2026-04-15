@@ -1,6 +1,7 @@
 /* Test that we do not use QI vector to initilize the memory if the
  * size of QI vector isn't larger than UNITS_PER_WORD */
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32 -O3" } */
 
 struct s {

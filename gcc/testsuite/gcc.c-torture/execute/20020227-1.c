@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This testcase failed on mmix-knuth-mmixware.  Problem was with storing
    to an unaligned mem:SC, gcc tried doing it by parts from a (concat:SC
    (reg:SF 293) (reg:SF 294)).  */

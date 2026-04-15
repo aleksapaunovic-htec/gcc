@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gv_xandesvbfhcvt -mabi=ilp32 -O3 -fno-schedule-insns -fno-schedule-insns2" { target { rv32 } } } */
 /* { dg-options "-march=rv64gv_xandesvbfhcvt -mabi=lp64d -O3 -fno-schedule-insns -fno-schedule-insns2" { target { rv64 } } } */
 

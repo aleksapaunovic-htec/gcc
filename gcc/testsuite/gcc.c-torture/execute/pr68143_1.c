@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #define NULL 0
 
 struct stuff

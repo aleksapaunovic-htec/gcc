@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu89" } */
 typedef int t;
 f(t y){switch(y){case 1:return 1;}return 0;}

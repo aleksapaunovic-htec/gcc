@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that we do not lose side effects on a MOD expression.  */
 
 #include <stdlib.h>

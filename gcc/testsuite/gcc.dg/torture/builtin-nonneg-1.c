@@ -6,6 +6,7 @@
    Written by Kaveh Ghazi, 2004-03-10.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* This test needs more recursion than the default.  PR 68097 is about
    adding proper range information for reals, so that no recursion
    would be necessary.  */

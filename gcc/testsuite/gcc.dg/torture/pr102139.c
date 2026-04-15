@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftree-slp-vectorize" } */
 
 typedef double aligned_double __attribute__((aligned(2*sizeof(double))));

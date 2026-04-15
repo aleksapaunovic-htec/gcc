@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort ();
 extern int abs (int __x) __attribute__ ((__nothrow__, __leaf__)) __attribute__ ((__const__));
 

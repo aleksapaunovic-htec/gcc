@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fsigned-char -fno-strict-aliasing -fwrapv" } */
 
 char f1(char a, char b) {

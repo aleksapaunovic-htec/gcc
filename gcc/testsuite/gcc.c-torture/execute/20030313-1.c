@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct A
 {
   unsigned long p, q, r, s;

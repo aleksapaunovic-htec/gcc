@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl512b -mabi=lp64d -mrvv-max-lmul=m8 -mrvv-vector-bits=zvl -O3 -fno-vect-cost-model -fno-tree-loop-distribute-patterns" } */
 
 int a[1024];

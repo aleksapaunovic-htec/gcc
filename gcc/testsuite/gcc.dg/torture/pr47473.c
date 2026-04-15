@@ -1,5 +1,6 @@
 /* PR c/47473 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c99" } */
 
 int

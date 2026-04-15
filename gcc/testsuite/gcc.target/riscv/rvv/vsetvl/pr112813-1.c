@@ -1,5 +1,6 @@
 /* Test that we do not have ice when compile */
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mrvv-vector-bits=scalable -march=rv32gcv_zvl256b -mabi=ilp32d -O3" } */
 
 int a, c, d, f, j;

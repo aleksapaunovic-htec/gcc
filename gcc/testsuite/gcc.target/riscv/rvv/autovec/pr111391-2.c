@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_zve32x_zvl128b -mabi=lp64d -Wno-int-conversion -Wno-implicit-function -Wno-incompatible-pointer-types -Wno-implicit-function-declaration -Ofast -ftree-vectorize" } */
 
 #include "pr111391-1.c"

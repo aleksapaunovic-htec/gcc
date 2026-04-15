@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* From PR 18977.  */
 void foo(float * x);
 

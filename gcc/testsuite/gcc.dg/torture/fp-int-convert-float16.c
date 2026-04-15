@@ -1,5 +1,6 @@
 /* Test floating-point conversions.  Standard types and _Float16.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float16 } */
 /* { dg-require-effective-target float16_runtime } */

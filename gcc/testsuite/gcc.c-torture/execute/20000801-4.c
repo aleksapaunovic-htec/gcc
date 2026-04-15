@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Origin: PR c/128 from Martin Sebor <sebor@roguewave.com>, adapted
    as a testcase by Joseph Myers <jsm28@cam.ac.uk>.
 */

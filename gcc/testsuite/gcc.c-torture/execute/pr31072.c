@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern volatile int ReadyFlag_NotProperlyInitialized;
 
 volatile int ReadyFlag_NotProperlyInitialized=1;

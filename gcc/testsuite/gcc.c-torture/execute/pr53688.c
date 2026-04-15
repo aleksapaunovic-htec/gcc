@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char headline[256];
 struct hdr {
   char part1[9];

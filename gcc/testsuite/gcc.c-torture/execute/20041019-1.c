@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fpermissive" } */
 
 test_store_ccp (int i)

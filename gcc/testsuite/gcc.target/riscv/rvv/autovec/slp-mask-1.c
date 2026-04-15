@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu99 -O3 -march=rv64gcv -mabi=lp64d -mrvv-vector-bits=scalable -fdump-tree-slp-details" } */
 
 void

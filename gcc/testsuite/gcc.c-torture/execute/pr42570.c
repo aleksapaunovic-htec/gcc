@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned char uint8_t;
 uint8_t foo[1][0];
 extern void abort (void);

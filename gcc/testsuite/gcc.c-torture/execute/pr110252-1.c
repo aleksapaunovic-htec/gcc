@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This is reduced from sel-sched.cc which was noticed was being miscompiled too. */
 int g(int min_need_stall) __attribute__((__noipa__));
 int g(int min_need_stall)

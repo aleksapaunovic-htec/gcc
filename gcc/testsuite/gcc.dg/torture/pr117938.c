@@ -1,4 +1,5 @@
 /* { dg-do run { target { int32 && int128 } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-Wno-psabi --param=max-cse-insns=1" } */
 
 typedef unsigned V __attribute__((__vector_size__(64)));

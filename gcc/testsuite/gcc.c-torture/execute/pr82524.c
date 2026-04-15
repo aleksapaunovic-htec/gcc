@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/82524 */
 
 struct S { unsigned char b, g, r, a; };

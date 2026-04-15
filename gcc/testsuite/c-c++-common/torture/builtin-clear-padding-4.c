@@ -1,5 +1,6 @@
 /* PR libstdc++/88101 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 struct S { char a; short b; char c; };
 

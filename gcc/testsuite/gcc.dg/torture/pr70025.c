@@ -1,5 +1,6 @@
 /* PR middle-end/70025 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mtune=z10" { target s390*-*-* } } */
 /* { dg-require-effective-target int32plus } */
 

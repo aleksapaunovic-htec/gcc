@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test to make sure strcpy works correctly. */
 #define STRING "Hi!THE"
 

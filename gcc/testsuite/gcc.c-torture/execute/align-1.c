@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void abort (void);
 
 typedef int new_int __attribute__ ((aligned(16)));

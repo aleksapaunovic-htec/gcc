@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /*
 From: niles@fan745.gsfc.nasa.gov
 To: fortran@gnu.org

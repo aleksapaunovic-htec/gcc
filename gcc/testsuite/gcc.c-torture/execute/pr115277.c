@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int array[1000];
 void
 test (int a)

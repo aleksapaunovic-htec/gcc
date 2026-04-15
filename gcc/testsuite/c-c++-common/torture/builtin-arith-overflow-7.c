@@ -1,5 +1,6 @@
 /* Test __builtin_{add,sub}_overflow on {,un}signed char.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "" { ! run_expensive_tests }  { "*" } { "-O0" "-O2" } } */
 
 #define UCHAR_MAX ((unsigned char) ~0)

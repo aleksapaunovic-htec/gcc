@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void exit (int);
 
 int a, b, c, d, e, f[3]; 

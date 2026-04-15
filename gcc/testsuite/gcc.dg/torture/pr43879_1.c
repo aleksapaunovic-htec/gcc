@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fipa-pta -fno-inline" } */
 /* { dg-additional-sources "pr43879_2.c" } */
 

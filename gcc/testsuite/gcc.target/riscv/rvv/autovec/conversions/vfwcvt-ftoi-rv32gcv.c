@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=c99 -fno-vect-cost-model -march=rv32gcv_zvfh -mabi=ilp32d -fno-trapping-math -mrvv-vector-bits=scalable" } */
 
 #include "vfwcvt-ftoi-template.h"

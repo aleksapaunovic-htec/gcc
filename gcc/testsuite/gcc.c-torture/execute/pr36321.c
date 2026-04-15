@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* See 'gcc.target/nvptx/__builtin_alloca_0-1-O0.c'.
    { dg-xfail-if TODO { nvptx-*-* && { ! nvptx_softstack } } { "-O0" } { "" } } */
 

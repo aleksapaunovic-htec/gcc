@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -mrvv-vector-bits=scalable -O3 -mno-autovec-segment" } */
 
 enum e { c, d };

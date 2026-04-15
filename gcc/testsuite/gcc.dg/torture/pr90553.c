@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 __attribute__((__noipa__))
 void f1(int x, void (*p1 []) (int, int))

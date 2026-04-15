@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 __INT32_TYPE__ a = 5, b, c, d;
 __UINT64_TYPE__ e = 20862985922;

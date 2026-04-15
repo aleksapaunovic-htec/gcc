@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* Based on PR target/27386 testcase by Joerg Wunsch.  */
 
 extern void abort (void);

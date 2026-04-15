@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-march=rv32gcv_zvfhmin -mabi=ilp32d -mrvv-vector-bits=scalable -fdump-tree-vect-details" } */
 
 #include "single_rgroup-3.h"

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Make sure a bit-field store of 0 cause the whole assignment become 0. */
 

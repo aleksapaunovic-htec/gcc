@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/37780.  */
 
 #define VAL (8 * sizeof (int))

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 16341 */
 /* { dg-require-effective-target int32plus } */
 

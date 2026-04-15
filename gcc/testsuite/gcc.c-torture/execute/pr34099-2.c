@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int test1 (int b, int c)
 {
   char x;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* It is not clear whether this test is conforming.  See DR#236
    http://www.open-std.org/jtc1/sc22/wg14/www/docs/dr_236.htm.  However,
    there seems to be consensus that the presence of a union to aggregate

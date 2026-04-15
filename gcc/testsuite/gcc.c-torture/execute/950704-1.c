@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fwrapv" } */
 void abort (void);
 void exit (int);

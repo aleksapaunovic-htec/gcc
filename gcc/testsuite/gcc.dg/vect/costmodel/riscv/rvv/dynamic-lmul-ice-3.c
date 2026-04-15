@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv -mabi=ilp32 -O2 -ftree-vectorize -flto -fno-use-linker-plugin -flto-partition=none -mrvv-max-lmul=dynamic" } */
 
 void (*foo[6][6]) (int);

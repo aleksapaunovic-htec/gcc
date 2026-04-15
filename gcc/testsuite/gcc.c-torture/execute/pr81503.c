@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 unsigned short a = 41461;
 unsigned short b = 3419;
 #if __SIZEOF_INT__ >= 4

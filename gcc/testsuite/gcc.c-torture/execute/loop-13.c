@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR opt/7130 */
 void abort (void);
 #define TYPE long

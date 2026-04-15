@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef struct __attribute__((__may_alias__)) { short x; } test;
 
 int f() {

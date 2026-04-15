@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fwrapv -march=rv64imvxtheadcondmov_xventanacondops -mabi=lp64d" } */
 
 int a, b;

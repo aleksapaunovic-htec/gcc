@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct g{};
 char y[3];
 char *f = &y[0];

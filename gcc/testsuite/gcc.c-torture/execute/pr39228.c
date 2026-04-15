@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options ieee } */
 
 extern void abort (void);

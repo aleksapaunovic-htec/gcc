@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv32gc_zve32f_zvfhmin -mabi=ilp32d" } */
 
 void f___rvv_int8mf8x2_t () {__rvv_int8mf8x2_t t;} /* { dg-error {unknown type name '__rvv_int8mf8x2_t'} } */

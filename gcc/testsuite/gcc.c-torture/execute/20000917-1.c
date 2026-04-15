@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This bug exists in gcc-2.95, egcs-1.1.2, gcc-2.7.2 and probably
    every other version as well.  */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* From PR target/16176 */
 void abort (void);
 void exit (int);

@@ -2,6 +2,7 @@
    without any fast-math flags.  */
 
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target inf } */
 /* { dg-skip-if "No subnormal support" { csky-*-* } { "-mhard-float" } } */
 /* { dg-skip-if "Not fully IEEE" { "avr-*-*" } } */

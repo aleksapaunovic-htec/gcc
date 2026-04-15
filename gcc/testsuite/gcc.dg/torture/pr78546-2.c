@@ -1,5 +1,6 @@
 /* PR rtl-optimization/78546 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef unsigned __int128 u128;
 u128 b;

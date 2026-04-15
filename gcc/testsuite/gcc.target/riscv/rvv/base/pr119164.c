@@ -2,6 +2,7 @@
    The conditional function call was tripping mode switching state machine */
 
 /* { dg-do compile  { target { rv64 && { ! riscv_abi_e } } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options " -Ofast -march=rv64gcv_zvl256b -ftree-vectorize -mrvv-vector-bits=zvl" } */
 
 void *a;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/10955 */
 /* Originator: <heinrich.brand@fujitsu-siemens.com> */
 

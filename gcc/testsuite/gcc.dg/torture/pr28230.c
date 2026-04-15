@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fwrapv" } */
 
 void foo( unsigned long long bb, unsigned short tn, unsigned e, unsigned* w );

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target indirect_jumps } */
 
 extern int strcmp(const char *, const char *);

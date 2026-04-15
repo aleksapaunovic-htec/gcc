@@ -1,5 +1,6 @@
 /* PR rtl-optimization/94516 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fpie" { target pie } } */
 
 struct S { unsigned char *a; unsigned int b; };

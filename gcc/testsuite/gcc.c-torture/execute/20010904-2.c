@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* If some target has a Max alignment less than 32, please create
    a #ifdef around the alignment and add your alignment.  */
 #ifdef __pdp11__

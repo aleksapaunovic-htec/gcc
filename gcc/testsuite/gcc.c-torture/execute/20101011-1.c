@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fnon-call-exceptions" } */
 /* With -fnon-call-exceptions 0 / 0 should not be eliminated.  */
 /* { dg-additional-options "-DSIGNAL_SUPPRESS" { target { ! signal } } } */

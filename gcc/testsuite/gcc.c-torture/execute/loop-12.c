@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Checks that pure functions are not treated as const.  */
 
 char *p;

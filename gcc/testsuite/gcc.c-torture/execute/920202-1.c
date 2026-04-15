@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void exit (int);
 
 static int rule_text_needs_stack_pop = 0;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test to verify that a function that returns either the address
    of a local variable or a non-local via a MAX_EXPR or MIN_EXPR
    doesn't return null when the result of the expression is

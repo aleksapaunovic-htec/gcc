@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef struct { unsigned char x; } A;
 typedef struct { unsigned char x; } B;

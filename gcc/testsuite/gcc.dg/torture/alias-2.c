@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* We do not want to treat int[3] as an object that cannot overlap
    itself but treat it as arbitrary sub-array of a larger array object.  */

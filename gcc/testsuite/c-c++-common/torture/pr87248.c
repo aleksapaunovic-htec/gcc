@@ -1,5 +1,6 @@
 /* PR middle-end/87248 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 void
 foo (signed char *p, int q)

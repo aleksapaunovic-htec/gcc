@@ -1,5 +1,6 @@
 /* Test _Float128 <float.h> macros.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float128 } */
 /* { dg-add-options ieee } */

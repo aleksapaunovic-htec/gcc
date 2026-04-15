@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void abort (void);
  
 void bug (double *Cref, char transb, int m, int n, int k,

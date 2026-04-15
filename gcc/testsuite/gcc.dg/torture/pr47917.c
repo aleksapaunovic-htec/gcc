@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c99" } */
 /* { dg-options "-std=gnu99" { target *-*-hpux* } } */
 /* { dg-additional-options "-D__USE_MINGW_ANSI_STDIO=1" { target *-*-mingw* } } */

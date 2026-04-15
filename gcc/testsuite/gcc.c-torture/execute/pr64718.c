@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 static int __attribute__ ((noinline, noclone))
 swap (int x)
 {

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* The -Waggressive-loop-optimizations diagnostic is spurious, missed
    constant propagation after final value replacement.  */
 /* { dg-additional-options "-Wno-aggressive-loop-optimizations -fsplit-loops" } */

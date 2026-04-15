@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR opt/10011 */
 /* This is link test for builtin_constant_p simplification + DCE.  */
 

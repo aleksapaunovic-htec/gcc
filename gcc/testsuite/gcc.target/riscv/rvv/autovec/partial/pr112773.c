@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-march=rv32gcv_zvl256b -mabi=ilp32d -O3 -fno-vect-cost-model" } */
 
 long long a;

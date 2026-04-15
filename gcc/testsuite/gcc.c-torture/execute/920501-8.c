@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-Wl,-u,_printf_float" { target newlib_nano_io } } */
 
 void abort (void);

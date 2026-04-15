@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef __UINT16_TYPE__ uint16_t;
 typedef __INT32_TYPE__ int32_t;

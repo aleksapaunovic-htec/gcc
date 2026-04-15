@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* On the i960 any arg bigger than 16 bytes causes all subsequent args
    to be passed on the stack.  We test this.  */
 

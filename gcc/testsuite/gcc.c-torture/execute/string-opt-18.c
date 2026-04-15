@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2003  Free Software Foundation.
 
    Test equal pointer optimizations don't break anything.

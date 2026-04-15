@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl256b -mrvv-vector-bits=zvl -mabi=lp64" } */
 
 char b[13][13];

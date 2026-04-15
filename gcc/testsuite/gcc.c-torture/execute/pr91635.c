@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/91635 */
 
 #if __CHAR_BIT__ == 8 && __SIZEOF_SHORT__ == 2 \

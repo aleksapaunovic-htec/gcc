@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/18694
 
    The dominator optimization didn't take the PHI evaluation order

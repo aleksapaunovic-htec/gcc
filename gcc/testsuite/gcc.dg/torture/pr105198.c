@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-tree-pre -fpredictive-commoning" } */
 
 static  __attribute__ ((noipa)) void

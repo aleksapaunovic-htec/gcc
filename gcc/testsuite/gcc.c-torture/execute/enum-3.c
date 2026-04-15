@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* The composite type of int and an enum compatible with int might be
    either of the two types, but it isn't an unsigned type.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */

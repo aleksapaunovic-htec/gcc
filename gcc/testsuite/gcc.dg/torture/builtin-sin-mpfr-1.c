@@ -5,6 +5,7 @@
    Origin: Kaveh R. Ghazi 10/23/2006.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void link_error (int, double, double);
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 void big(long long u) { }
 
 void doit(unsigned int a,unsigned int b,char *id)

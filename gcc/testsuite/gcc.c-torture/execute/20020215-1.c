@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test failed on an architecture that:
 
    - had 16-bit registers,

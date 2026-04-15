@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Source: PR 321 modified for test suite by Neil Booth 14 Jan 2001.  */
 
 void abort (void);

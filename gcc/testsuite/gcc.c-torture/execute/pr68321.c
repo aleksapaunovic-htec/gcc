@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/68321 */
 
 int e = 1, u = 5, t2, t5, i, k;

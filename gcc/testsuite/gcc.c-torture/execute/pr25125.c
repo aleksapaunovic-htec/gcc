@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void exit (int);
 extern void abort (void);
 extern unsigned short f (short a) __attribute__((__noinline__));

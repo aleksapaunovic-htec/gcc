@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test argument passing of complex values.  The MIPS64 compiler had a
    bug when they were split between registers and the stack.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */

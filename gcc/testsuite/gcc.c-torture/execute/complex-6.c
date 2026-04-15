@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "requires io" { freestanding } }  */
 
 /* This test tests complex conjugate and passing/returning of

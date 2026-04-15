@@ -1,5 +1,6 @@
 /* Test _Float16 __builtin_issignaling.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float16 } */
 /* { dg-add-options ieee } */

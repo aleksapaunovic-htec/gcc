@@ -1,4 +1,5 @@
 /* { dg-do compile { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gv -mabi=lp64d -mrvv-vector-bits=zvl" { target { rv64 } } } */
 
 __int128 h, j;

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvfhmin -mabi=lp64 -O3" } */
 
 #include "riscv_vector.h"

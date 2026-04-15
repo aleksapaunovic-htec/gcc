@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* "i" overflows in f().  Check that x[i] is not treated as a giv.  */
 #include <limits.h>
 

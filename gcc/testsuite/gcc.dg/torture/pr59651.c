@@ -1,5 +1,6 @@
 /* PR tree-optimization/59561 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 int a[] = { 0, 0, 0, 0, 0, 0, 0, 6 };

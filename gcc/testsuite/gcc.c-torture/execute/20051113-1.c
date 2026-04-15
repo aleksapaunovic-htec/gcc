@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort(void);
 extern void *malloc(__SIZE_TYPE__);
 extern void *memset(void *, int, __SIZE_TYPE__);

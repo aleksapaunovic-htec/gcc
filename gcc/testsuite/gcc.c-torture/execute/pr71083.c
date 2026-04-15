@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 __extension__ typedef __UINT32_TYPE__ uint32_t;
 
 struct lock_chain {

@@ -6,6 +6,7 @@
    Written by Kaveh Ghazi, 2004-03-23.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 
 void test(int i)

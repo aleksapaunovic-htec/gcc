@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 char buf[40];
 
 extern int sprintf (char*, const char*, ...);

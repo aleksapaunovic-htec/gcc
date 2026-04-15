@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/82192 */
 
 unsigned long long int a = 0x95dd3d896f7422e2ULL;

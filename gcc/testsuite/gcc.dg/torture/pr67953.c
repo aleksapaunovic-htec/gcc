@@ -1,5 +1,6 @@
 /* PR tree-optimization/67953 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 unsigned int
 fn1 (signed int a)

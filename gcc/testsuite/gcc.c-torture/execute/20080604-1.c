@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct barstruct { char const* some_string; } x;
 extern void abort (void);
 void __attribute__((noinline))

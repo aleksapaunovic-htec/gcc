@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/103376 */
 
 long long a = 0x123456789abcdef0LL, f;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 // reduced testcase, compile with -O2. Also, with --disable-checking
 // gcc produces wrong code.
 

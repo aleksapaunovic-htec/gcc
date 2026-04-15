@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 static inline int
 foo (int *x, int y)
 {

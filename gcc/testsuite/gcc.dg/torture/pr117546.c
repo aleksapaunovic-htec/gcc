@@ -1,4 +1,5 @@
 /* { dg-do run { target int32plus } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef struct {
   int a;

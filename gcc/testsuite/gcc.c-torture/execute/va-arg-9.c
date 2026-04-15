@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This is a modfied version of va-arg-2.c to test passing a va_list as
    a parameter to another function.  */
 

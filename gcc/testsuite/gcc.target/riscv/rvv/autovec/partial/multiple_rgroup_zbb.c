@@ -1,4 +1,5 @@
 /* { dg-do compile } *.
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zbb -mabi=lp64d -O2 -mrvv-vector-bits=zvl -fno-schedule-insns -fno-schedule-insns2" } */
 
 #include <stdint-gcc.h>

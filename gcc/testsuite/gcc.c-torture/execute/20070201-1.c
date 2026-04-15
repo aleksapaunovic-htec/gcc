@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/30473 */
 
 extern int sprintf (char *, const char *, ...);

@@ -1,6 +1,7 @@
 /* PR rtl-optimization/20532 */
 
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-options "-march=i386" { target { { i?86-*-* x86_64-*-* } && ia32 } } } */
 

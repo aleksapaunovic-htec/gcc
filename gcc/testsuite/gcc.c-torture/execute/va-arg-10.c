@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* This is a modfied version of va-arg-9.c to test va_copy.  */
 
 #include <stdarg.h>

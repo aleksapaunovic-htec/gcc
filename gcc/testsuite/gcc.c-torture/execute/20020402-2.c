@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR 3967
 
    local-alloc screwed up consideration of high+lo_sum and created

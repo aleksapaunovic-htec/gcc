@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/21297 */
 typedef __SIZE_TYPE__ size_t;
 extern int memcmp (const char *, const char *, size_t);

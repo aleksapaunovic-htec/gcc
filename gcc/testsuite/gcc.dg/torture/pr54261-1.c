@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-DSYNC_FALLBACK" { target { ! cas_int } } } */
 
 #ifdef SYNC_FALLBACK

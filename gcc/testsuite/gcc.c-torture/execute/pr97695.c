@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int *a, b, **c = &a, d, e;
 
 int f(int g, int h) { return !h || (g && h == 1) ? 0 : g / h; }

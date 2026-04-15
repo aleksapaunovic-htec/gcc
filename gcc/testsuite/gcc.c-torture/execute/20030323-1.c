@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR opt/10116 */
 /* { dg-require-effective-target return_address } */
 /* Removed tablejump while label still in use; this is really a link test.  */

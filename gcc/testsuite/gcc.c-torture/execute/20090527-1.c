@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef enum { POSITION_ASIS, POSITION_UNSPECIFIED } unit_position;
 
 typedef enum { STATUS_UNKNOWN, STATUS_UNSPECIFIED } unit_status;

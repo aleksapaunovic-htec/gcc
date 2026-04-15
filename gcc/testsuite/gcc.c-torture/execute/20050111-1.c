@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/19084, rtl-optimization/19348 */
 
 unsigned int

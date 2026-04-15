@@ -1,5 +1,6 @@
 /* PR tree-optimization/119417 */
 /* { dg-do run { target int32 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 __attribute__((noipa)) void
 foo (unsigned long long x)

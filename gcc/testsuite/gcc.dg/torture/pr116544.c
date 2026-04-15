@@ -1,5 +1,6 @@
 /* { dg-options "-fno-strict-aliasing -fwrapv" }
 /* { dg-do run { target longlong64 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 long long a;

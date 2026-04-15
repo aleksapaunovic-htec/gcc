@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Origin: Mikael Pettersson <mikpe@csd.uu.se> and the Linux kernel.  */
 
 extern void abort (void);

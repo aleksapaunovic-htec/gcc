@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fharden-control-flow-redundancy -fdump-tree-hardcfr --param hardcfr-max-blocks=9 --param hardcfr-max-inline-blocks=5 -ffat-lto-objects" } */
 
 /* Check the instrumentation and the parameters.  */

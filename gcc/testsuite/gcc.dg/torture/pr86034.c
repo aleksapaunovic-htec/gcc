@@ -2,6 +2,7 @@
 /* Testcase by  Zhendong Su  <su@cs.ucdavis.edu> */
 
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef int int32_t __attribute__((mode (__SI__)));
 

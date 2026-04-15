@@ -1,6 +1,7 @@
 /* PR target/93047 */
 /* Originator: Andrew Church <gcczilla@achurch.org> */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-O3 -frename-registers" } */
 /* { dg-require-effective-target untyped_assembly } */
 

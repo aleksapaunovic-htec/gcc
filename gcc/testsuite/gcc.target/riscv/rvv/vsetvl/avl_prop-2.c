@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mrvv-vector-bits=scalable -march=rv64gc_zve32f -mabi=lp64d -O3 -mrvv-vector-bits=zvl -fno-thread-jumps" } */
 
 int d0, sj, v0, rp, zi;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/47337 */
 
 static unsigned int a[256], b = 0;

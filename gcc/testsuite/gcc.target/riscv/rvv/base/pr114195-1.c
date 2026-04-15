@@ -1,5 +1,6 @@
 /* Test that we do not have ice when compile */
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -O3 -ftree-vectorize" } */
 
 long a, b;

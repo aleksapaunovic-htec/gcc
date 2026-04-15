@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef enum { C = 1, D = 2 } B;
 extern void abort (void);
 

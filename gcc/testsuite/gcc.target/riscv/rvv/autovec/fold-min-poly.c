@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options " -march=rv64gcv_zvl128b -mabi=lp64d -O3 -mrvv-vector-bits=scalable -mrvv-max-lmul=m1" } */
 
 void foo1 (int* restrict a, int* restrict b, int n)

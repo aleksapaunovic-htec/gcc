@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int flag;
 extern void abort (void);
 int main()

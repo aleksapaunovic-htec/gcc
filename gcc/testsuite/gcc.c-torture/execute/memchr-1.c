@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86711 - wrong folding of memchr
 
    Verify that memchr() of arrays initialized with string literals

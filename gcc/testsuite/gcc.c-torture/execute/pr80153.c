@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/80153 */
 
 void check (int, int, int) __attribute__((noinline));

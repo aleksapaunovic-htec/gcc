@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/7559
    This testcase was miscompiled on x86-64, because classify_argument
    wrongly computed the offset of nested structure fields.  */

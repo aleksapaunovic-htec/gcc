@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort(void);
 extern int strcmp(const char *, const char *);
 

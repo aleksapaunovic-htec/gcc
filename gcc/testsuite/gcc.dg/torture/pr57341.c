@@ -1,4 +1,5 @@
 /* { dg-do run } */ 
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-msse" { target sse2_runtime } } */
 
 int a, d;

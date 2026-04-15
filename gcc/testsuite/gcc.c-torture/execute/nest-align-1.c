@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test for alignment handling when a variable is accessed by nested
    function.  */
 /* Origin: Joey Ye <joey.ye@intel.com> */

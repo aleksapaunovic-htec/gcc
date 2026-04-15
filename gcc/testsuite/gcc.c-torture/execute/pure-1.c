@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Origin: Kaveh Ghazi <ghazi@caip.rutgers.edu> 2002-05-27.  */
 

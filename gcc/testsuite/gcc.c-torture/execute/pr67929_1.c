@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int __attribute__ ((noinline, noclone))
 foo (float a)
 {

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* REPRODUCED:RUN:SIGNAL MACHINE:sparc OPTIONS: */
 void exit (int);
 void

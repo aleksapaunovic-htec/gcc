@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O3 -march=rv64gcv -mabi=lp64d --param=riscv-autovec-mode=V4QI -fdump-tree-vect-details" } */
 
 /* By default we will use RVVM1SI mode for vectorization because N is not

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86990 */
 /* Testcase by Zhendong Su <su@cs.ucdavis.edu> */
 

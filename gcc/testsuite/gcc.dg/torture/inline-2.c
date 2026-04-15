@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern inline void foo2 (void) __attribute__((always_inline,gnu_inline));
 extern inline void foo1 (void) __attribute__((always_inline,gnu_inline));

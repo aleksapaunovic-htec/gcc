@@ -1,6 +1,7 @@
 /* PR target/95252 */
 /* { dg-options "-funroll-loops -msave-restore" } */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } } */
 
 int a[6], b = 1, d, e;

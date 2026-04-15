@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/9164 */
 /* The comparison operand was sign extended erraneously.  */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 2001 Free Software Foundation, Inc.  */
 
 /* Source: Neil Booth, 4 Nov 2001, derived from PR 2820 - field lookup in

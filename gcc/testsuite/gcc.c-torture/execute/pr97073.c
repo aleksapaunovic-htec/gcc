@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/97073 */
 /* { dg-additional-options "-mno-stv" { target i?86-*-* x86_64-*-* } } */
 

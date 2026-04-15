@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that operations on bit-fields yield results reduced to bit-field
    type.  */
 /* Origin: Joseph Myers <jsm@polyomino.org.uk> */

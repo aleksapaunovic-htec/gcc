@@ -1,6 +1,7 @@
 /* Test floating-point conversions.  Standard types and long double.  */
 /* Origin: Joseph Myers <joseph@codesourcery.com> */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-skip-if "double support is incomplete" { "avr-*-*" } } */
 

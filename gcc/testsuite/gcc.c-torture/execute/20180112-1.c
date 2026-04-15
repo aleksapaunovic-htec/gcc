@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/83565 */
 /* Testcase by Sergei Trofimovich <slyfox@inbox.ru> */
 

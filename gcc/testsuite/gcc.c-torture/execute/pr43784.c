@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct s {
   unsigned char a[256];
 };

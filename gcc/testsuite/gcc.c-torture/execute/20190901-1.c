@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/91472 */
 /* Reported by John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de> */
 /* { dg-require-effective-target double64plus } */

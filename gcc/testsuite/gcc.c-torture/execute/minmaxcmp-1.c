@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #define func(vol, op1, op2)	\
 _Bool op1##_##op2##_##vol (int a, int b)	\
 {					\

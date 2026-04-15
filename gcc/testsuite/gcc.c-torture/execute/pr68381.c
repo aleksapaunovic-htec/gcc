@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O -fexpensive-optimizations -fno-tree-bit-ccp" } */
 
 __attribute__ ((noinline, noclone))

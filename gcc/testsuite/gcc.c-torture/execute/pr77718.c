@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/77718 */
 
 char a[64] __attribute__((aligned (8)));

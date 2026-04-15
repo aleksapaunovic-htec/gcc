@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned long __attribute__((__vector_size__ (8))) V;
 
 

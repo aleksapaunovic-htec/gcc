@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-common" { target hppa*-*-hpux* } } */
 
 typedef long v2di __attribute__((vector_size(16)));

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Reduced testcase extracted from Samba source code.  */
 
 #include <stdlib.h>

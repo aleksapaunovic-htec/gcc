@@ -1,4 +1,5 @@
 /* { dg-do compile { target { rv64 } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -fstack-clash-protection -march=rv64gcv_zvl256b -mabi=lp64d" } */
 
 int pk_gen_i, pk_gen_j;

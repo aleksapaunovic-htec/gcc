@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-additional-options "-fomit-frame-pointer -fno-inline" }  */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/93213 - wrong code on a multibyte store with
    -Og -foptimize-strlen
    { dg-require-effective-target int128 }

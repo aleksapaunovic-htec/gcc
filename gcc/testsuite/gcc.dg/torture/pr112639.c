@@ -1,5 +1,6 @@
 /* PR middle-end/112639 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 unsigned long long b = 0;
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/59387 */
 
 int a, *d, **e = &d, f;

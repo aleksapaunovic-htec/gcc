@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 extern void exit (int);
 typedef __UINTPTR_TYPE__ uintptr_t;

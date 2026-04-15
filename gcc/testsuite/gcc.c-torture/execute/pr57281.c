@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/57281 */
 
 int a = 1, b, d, *e = &d;

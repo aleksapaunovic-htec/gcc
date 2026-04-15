@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* Test that we do NOT perform unsound transformations for any of these cases.
    Forwarding blocks to the exit block used to enable some of them.  */

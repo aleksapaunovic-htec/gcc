@@ -1,5 +1,6 @@
 /* Test _Float32 <float.h> macros.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float32 } */
 /* { dg-add-options ieee } */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/114552 */
 
 struct __attribute__((packed)) S { short b; int c; };

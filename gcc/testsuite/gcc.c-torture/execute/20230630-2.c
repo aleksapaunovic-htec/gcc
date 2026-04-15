@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #if __BYTE_ORDER__ == __ORDER_LITTLE_ENDIAN__
 #define REVERSE_SSO __attribute__((scalar_storage_order("big-endian")));
 #else

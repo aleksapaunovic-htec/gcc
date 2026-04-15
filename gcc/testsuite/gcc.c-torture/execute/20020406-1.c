@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 // Origin: abbott@dima.unige.it
 // PR c/5120
 

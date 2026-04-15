@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct mouse_button_str {
         unsigned char left      : 1;
         unsigned char right     : 1;

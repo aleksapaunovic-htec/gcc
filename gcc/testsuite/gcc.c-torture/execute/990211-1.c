@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright (C) 1999 Free Software Foundation, Inc.
   Contributed by Nathan Sidwell 20 Jan 1999 <nathan@acm.org> */
 

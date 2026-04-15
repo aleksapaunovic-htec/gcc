@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "assumes absence of larger-than-word padding" { epiphany-*-* } } */
 extern void abort(void);
 

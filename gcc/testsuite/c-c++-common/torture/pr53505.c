@@ -1,5 +1,6 @@
 /* PR tree-optimization/53505 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #include <stdbool.h>
 

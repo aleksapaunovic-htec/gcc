@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zba_zbb -mabi=lp64d -mrvv-max-lmul=dynamic -O3 -fdump-tree-vect-details" } */
 
 typedef float real_t;

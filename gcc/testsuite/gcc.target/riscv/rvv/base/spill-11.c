@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-msave-restore -march=rv32gc_zve64d -mabi=ilp32 -msave-restore -fno-schedule-insns -fno-schedule-insns2 -O3" } */
 /* { dg-final { check-function-bodies "**" "" } } */
 #include "riscv_vector.h"

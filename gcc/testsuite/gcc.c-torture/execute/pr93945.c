@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/93945 */
 
 union U { char a[8]; struct S { unsigned int b : 8, c : 13, d : 11; } e; } u;

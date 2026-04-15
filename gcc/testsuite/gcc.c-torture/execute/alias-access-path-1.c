@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test that variable
      int val;
    may hold value of tyope "struct c" which has same size.

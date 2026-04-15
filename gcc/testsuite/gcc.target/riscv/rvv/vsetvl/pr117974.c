@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl256b -mabi=lp64d -mrvv-vector-bits=zvl -Ofast" } */
 
 float g(float q[], int N){

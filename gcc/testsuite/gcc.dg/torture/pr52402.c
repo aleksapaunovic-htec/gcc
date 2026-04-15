@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-w -Wno-psabi" } */
 /* { dg-require-effective-target int32plus } */
 

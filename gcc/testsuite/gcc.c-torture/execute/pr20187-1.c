@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int a = 0x101;
 int b = 0x100;
 

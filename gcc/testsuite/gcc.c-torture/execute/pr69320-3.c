@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #include <stdlib.h>
 
 static int a[40] = {7, 5, 3, 3, 0, 0, 3};

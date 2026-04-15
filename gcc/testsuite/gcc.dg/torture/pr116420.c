@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-forward-propagate -fno-tree-ch" } */
 int a, d, e;
 signed char b = -1, c, f;

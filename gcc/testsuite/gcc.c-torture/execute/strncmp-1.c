@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-xfail-if "kernel strncmp does not perform unsigned comparisons" { vxworks_kernel } } */
 /* Copyright (C) 2002  Free Software Foundation.
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned int __attribute__ ((mode (QI))) intw1_t;
 typedef unsigned int __attribute__ ((mode (HI))) intw2_t;
 typedef unsigned int __attribute__ ((mode (SI))) intw4_t;

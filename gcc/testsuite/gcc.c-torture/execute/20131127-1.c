@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR middle-end/59138 */
 /* Testcase by John Regehr <regehr@cs.utah.edu> */
 

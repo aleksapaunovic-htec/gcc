@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -O3 -fno-vect-cost-model" } */
 
 typedef unsigned short (FUNC_P) (void *, unsigned char *, unsigned short);

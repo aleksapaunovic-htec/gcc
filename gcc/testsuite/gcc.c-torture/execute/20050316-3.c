@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-Wno-psabi" } */
 extern void abort (void);
 

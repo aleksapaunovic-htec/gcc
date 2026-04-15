@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-prune-output "use of enum values across objects may fail" } */
 /* { dg-additional-options "-fshort-enums" } */
 /* { dg-skip-if "" short_eq_int } */

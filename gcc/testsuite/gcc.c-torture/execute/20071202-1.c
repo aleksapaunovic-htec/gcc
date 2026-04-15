@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 struct T { int t; int r[8]; };
 struct S { int a; int b; int c[6]; struct T d; };

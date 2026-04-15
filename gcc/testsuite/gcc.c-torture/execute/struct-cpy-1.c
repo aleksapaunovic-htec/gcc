@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* powerpc64-linux gcc miscompiled this due to rs6000.c:expand_block_move
    not setting mem aliasing info correctly for the code implementing the
    structure assignment.  */

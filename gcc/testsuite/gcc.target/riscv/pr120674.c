@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-g -w -march=rv32gcv -mabi=ilp32" { target rv32 } } */
 /* { dg-additional-options "-g -w -march=rv64gcv -mabi=lp64d" { target rv64 } } */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=gnu17" } */
 /* { dg-require-effective-target label_values } */
 /* { dg-require-stack-size "4000" } */

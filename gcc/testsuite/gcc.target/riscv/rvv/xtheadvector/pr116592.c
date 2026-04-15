@@ -1,4 +1,5 @@
 /* { dg-do assemble } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gc_zfh_xtheadvector -mabi=ilp32d -O2 -save-temps" { target { rv32 } } } */
 /* { dg-options "-march=rv64gc_zfh_xtheadvector -mabi=lp64d -O2 -save-temps" { target { rv64 } } } */
 

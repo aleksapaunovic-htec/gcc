@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR opt/7409.  */
 
 extern void abort (void);

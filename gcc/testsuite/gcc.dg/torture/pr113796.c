@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-ftree-loop-if-convert -fno-vect-cost-model" } */
 
 signed char a[] = {0x80, 0x80,0x80,0x80};

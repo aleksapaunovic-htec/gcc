@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/51667 */
 /* Testcase by Uros Bizjak <ubizjak@gmail.com> */
 

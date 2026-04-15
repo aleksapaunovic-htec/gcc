@@ -1,6 +1,7 @@
 /* PR rtl-optimization/117476.
    Second case checking skipping of TI mode. */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int128 } */
 
 unsigned __int128 g;

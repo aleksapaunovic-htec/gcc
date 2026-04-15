@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Verify that that Thumb-1 epilogue size optimization does not clobber the
    return value.  */
 

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/58984 */
 
 struct S { int f0 : 8; int : 6; int f1 : 5; };

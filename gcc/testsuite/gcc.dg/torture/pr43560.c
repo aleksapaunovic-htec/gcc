@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-weak "" } */
 
 int g_6[1][2] = {{1,1}};

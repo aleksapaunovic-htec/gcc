@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Assignments via pointers pointing to global variables were being killed
    by SSA-DCE.  Test contributed by Paul Brook <paul@nowt.org>  */
 

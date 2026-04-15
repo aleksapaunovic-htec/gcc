@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/117327 */
 /* Testcase by Brad Moody <brad.moody@oracle.com> */
 

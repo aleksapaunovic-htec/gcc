@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int
 main (int argc, char **argv)
 {

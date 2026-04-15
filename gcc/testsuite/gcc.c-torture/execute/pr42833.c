@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef __INT_LEAST8_TYPE__ int8_t;
 typedef __UINT_LEAST32_TYPE__ uint32_t;
 typedef int ssize_t;

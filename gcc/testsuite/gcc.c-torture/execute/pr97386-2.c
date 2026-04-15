@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/97386 */
 
 __attribute__((noipa)) unsigned

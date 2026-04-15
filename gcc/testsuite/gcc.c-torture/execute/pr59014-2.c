@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/59014 */
 
 __attribute__((noinline, noclone)) long long int

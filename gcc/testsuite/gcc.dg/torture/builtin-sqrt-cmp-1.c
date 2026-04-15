@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-ffast-math" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 

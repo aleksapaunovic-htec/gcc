@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target lp64 } */
 /* { dg-additional-options "-fno-tree-fre -fno-delete-dead-exceptions -fnon-call-exceptions" } */
 

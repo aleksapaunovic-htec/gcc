@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #include <stdbool.h>
 
 void abort (void);

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int a = 2, b=0, *c = &a, *d = &a, e=0;
 [[gnu::noipa]]

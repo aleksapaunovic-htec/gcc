@@ -1,5 +1,6 @@
 /* PR target/69613.  */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-w -Wno-psabi" } */
 /* { dg-additional-options "-mavx" { target avx_runtime } } */
 

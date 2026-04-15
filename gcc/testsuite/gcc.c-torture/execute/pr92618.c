@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/92618 */
 
 typedef long long __m128i __attribute__((__vector_size__(2 * sizeof (long long)),__may_alias__));

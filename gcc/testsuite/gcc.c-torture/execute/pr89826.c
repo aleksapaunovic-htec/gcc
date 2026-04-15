@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned int u32;
 typedef unsigned long long u64;
 u64 a;

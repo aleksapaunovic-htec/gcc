@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 /* PR tree-optimization/112581 */
 /* reassociation, used to combine 2 bb to together,

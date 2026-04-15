@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/83383 */
 
 unsigned long long int a = 16ULL;

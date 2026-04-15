@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv_zvl1024b -mabi=ilp32d -O3 -fomit-frame-pointer -funroll-loops -fpeel-loops -ftracer -finline-functions" } */
 
 int safe_lshift_func_int32_t_s_s_left, safe_lshift_func_int32_t_s_s_right,

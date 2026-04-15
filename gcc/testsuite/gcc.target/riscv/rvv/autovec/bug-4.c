@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gc_zve32f -mabi=lp64d -O3 -mrvv-max-lmul=m8 -mrvv-vector-bits=zvl" } */
 
 typedef struct {

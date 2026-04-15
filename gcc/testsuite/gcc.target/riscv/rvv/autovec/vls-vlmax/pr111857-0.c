@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvfh_zvl4096b -std=c99 -mabi=lp64d -O3 -fno-schedule-insns -fno-schedule-insns2" } */
 
 #include "../vls/def.h"

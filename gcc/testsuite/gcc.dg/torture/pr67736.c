@@ -1,4 +1,5 @@
 /* { dg-do run { target { stdint_types } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #include <stdint.h>
 #include <stdlib.h>

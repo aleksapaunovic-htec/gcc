@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Two of these types will, on current gcc targets, have the same
    mode but have different alias sets.  DOIT tries to get gcse to
    invalidly hoist one of the values out of the loop.  */

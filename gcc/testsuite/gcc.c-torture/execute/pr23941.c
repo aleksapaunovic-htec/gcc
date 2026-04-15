@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 double d = __FLT_MIN__ / 2.0;
 int main()

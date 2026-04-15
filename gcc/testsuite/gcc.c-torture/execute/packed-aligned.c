@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct c {
   double a;
 } __attribute((packed)) __attribute((aligned));

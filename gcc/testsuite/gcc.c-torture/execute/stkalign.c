@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fno-inline" } */
 /* Check that stack alignment is not affected by variables not placed
    on the stack.  */

@@ -1,6 +1,7 @@
 /* Accesses to complex numbers were sometimes marked as scalar and
    sometimes as struct accesses.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c99" { target c } } */
 
 #ifdef __cplusplus

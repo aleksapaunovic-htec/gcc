@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-stack-size "128 * 128 * 4 + 1024" } */
 
 void abort (void);

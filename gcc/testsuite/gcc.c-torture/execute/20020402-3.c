@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* extracted from gdb sources */
 
 typedef unsigned long long CORE_ADDR;

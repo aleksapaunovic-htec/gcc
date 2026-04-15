@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/92131 */
 /* Testcase by Armin Rigo <arigo@tunes.org> */
 

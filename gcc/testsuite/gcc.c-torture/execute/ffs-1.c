@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 __volatile int a = 0;
 
 extern void abort (void);

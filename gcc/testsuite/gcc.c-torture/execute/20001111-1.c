@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 
 static int next_buffer = 0;
 void bar (void);

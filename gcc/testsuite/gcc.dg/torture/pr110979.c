@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "--param vect-partial-vector-usage=2" } */
 
 #define FLT double

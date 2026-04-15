@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/91347 */
 /* Reported by John David Anglin <danglin@gcc.gnu.org> */
 /* { dg-additional-options "-std=gnu17" } */

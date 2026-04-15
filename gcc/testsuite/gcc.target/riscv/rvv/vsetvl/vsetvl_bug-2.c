@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mrvv-vector-bits=scalable -march=rv64gcv_zvl256b -mabi=lp64d -mrvv-max-lmul=m4 -O3 -fomit-frame-pointer -funroll-loops" } */
 
 int safe_lshift_func_int32_t_s_s_left, safe_lshift_func_int32_t_s_s_right,

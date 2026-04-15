@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv -mabi=lp64d -mrvv-vector-bits=scalable -O3 -fno-schedule-insns -fno-schedule-insns2 -fno-vect-cost-model" } */
 
 #define K 32

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #if __SIZEOF_LONG_DOUBLE__ == 16
 #define STR "AAAAAAAAAAAAAAA"

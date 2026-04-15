@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 struct A { int a; char b[]; };
 union B { struct A a; char b[sizeof (struct A) + 31]; };
 union B b = { { 1, "123456789012345678901234567890" } };

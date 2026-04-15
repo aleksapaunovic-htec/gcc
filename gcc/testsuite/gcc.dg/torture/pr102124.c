@@ -1,5 +1,6 @@
 /* PR tree-optimization/102124 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int
 foo (const unsigned char *a, const unsigned char *b, unsigned long len)

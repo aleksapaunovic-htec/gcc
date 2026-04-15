@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 static struct S { int *p1; int *p2; } s;
 typedef __UINTPTR_TYPE__ uintptr_t;

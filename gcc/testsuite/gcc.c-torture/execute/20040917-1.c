@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* submitted by kenneth zadeck */
 
 void abort (void);

@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 volatile int *volatile *a;
 static volatile int *volatile **b = &a;

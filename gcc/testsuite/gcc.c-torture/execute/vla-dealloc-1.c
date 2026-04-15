@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* VLAs should be deallocated on a jump to before their definition,
    including a jump to a label in an inner scope.  PR 19771.  */
 

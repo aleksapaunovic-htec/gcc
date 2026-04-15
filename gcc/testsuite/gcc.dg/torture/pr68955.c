@@ -1,5 +1,6 @@
 /* PR rtl-optimization/68955 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-output "ONE1ONE" } */
 
 int a, b, c, d, g, m;

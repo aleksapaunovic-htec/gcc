@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv32gcv_zvl1024b -mabi=ilp32d -mrvv-vector-bits=zvl" } */
 
 short a, b;

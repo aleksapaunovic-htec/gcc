@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #include <stdlib.h>
 int a, b, d, f;
 char c;

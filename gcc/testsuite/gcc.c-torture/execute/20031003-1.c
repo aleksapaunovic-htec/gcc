@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/9325  */
 
 /* { dg-additional-options "-fno-trapping-math" } */

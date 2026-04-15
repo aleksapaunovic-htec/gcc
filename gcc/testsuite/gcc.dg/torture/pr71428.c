@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-fno-tree-forwprop -Wno-psabi -w" } */
 
 typedef unsigned short v64u16 __attribute__ ((vector_size (64)));

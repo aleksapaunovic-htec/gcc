@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test front-end conversions, optimizer conversions, and run-time
    conversions between different arithmetic types.
 

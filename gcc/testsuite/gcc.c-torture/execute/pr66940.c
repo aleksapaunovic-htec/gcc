@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 long long __attribute__ ((noinline, noclone))
 foo (long long ival)
 {

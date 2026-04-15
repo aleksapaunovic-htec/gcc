@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/84169 */
 
 #ifdef __SIZEOF_INT128__

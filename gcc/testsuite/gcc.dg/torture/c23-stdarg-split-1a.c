@@ -2,6 +2,7 @@
    parameter with a declaration not allowed in C17.  Execution tests split
    between source files.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-std=c23 -pedantic-errors" } */
 /* { dg-additional-sources "c23-stdarg-split-1b.c" } */
 

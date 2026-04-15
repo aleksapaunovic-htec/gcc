@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-march=rv64gcv_zvfh_zvl128b -mabi=lp64d -mrvv-vector-bits=scalable -mrvv-max-lmul=m2 -fno-vect-cost-model -ffast-math" } */
 
 #include "cond_widen_reduc-1.c"

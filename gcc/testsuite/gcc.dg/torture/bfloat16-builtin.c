@@ -1,5 +1,6 @@
 /* Test __bf16 built-in functions.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options bfloat16 } */
 /* { dg-add-options ieee } */

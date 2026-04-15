@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/31691 */
 /* Origin: Chi-Hua Chen <stephaniechc-gccbug@yahoo.com> */
 

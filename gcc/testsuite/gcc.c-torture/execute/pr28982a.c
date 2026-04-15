@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR rtl-optimization/28982.  Function foo() does the equivalent of:
 
      float tmp_results[NVARS];

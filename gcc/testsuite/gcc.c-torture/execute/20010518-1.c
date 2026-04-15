@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Leaf functions with many arguments.  */
 
 void abort (void);

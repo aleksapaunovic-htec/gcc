@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-finput-charset=utf-8" } */
 typedef __WCHAR_TYPE__ wchar_t;
 wchar_t x[] = L"Ä";

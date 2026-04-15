@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Ensure that we create VUSE operands also for noreturn functions.  */
 
 #include <stdlib.h>

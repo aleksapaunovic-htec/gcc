@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target trampolines } */
 
 /* Test that the GP gets properly restored, either by the nonlocal

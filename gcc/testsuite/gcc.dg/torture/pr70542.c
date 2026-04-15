@@ -1,5 +1,6 @@
 /* PR rtl-optimization/70542 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int32plus } */
 
 int a[113], d[113];

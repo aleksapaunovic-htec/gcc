@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 short a = -1;
 int b;
 char c;

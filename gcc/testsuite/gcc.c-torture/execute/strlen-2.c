@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86532 - Wrong code due to a wrong strlen folding  */
 
 extern __SIZE_TYPE__ strlen (const char*);

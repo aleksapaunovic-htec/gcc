@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-O2 -march=rv32im_zvfbfwma -mabi=ilp32f -mcmodel=medlow -misa-spec=20191213" } */
 
 int

@@ -1,5 +1,6 @@
 /* PR target/105613 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 typedef unsigned __int128 __attribute__((__vector_size__ (16))) V;
 

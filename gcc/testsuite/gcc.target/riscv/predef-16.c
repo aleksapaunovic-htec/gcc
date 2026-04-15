@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64im_zve64f -mabi=lp64 -mcmodel=medlow -misa-spec=2.2" } */
 
 int main () {

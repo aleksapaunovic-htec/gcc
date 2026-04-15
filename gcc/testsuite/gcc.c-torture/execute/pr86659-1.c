@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 #define ENDIANBIG __attribute((scalar_storage_order ("big-endian")))
 
 typedef struct ENDIANBIG 

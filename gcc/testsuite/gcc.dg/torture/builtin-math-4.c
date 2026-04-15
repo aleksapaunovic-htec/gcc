@@ -7,6 +7,7 @@
    Origin: Kaveh R. Ghazi,  April 23, 2007.  */
 
 /* { dg-do link } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 /* All references to link_error should go away at compile-time.  */
 extern void link_error(int);

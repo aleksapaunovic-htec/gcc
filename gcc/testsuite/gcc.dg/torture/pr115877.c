@@ -1,4 +1,5 @@
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 char a[16];
 unsigned short u;

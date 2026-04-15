@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-mrvv-vector-bits=scalable -march=rv32gc_zve64d_zvfh -mabi=ilp32d -O3" } */
 
 #include "pr111037-1.c"

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef __SIZE_TYPE__ size_t;
 static int mymemcmp1 (unsigned long int, unsigned long int)
   __attribute__ ((__nothrow__));

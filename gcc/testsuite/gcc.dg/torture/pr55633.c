@@ -1,5 +1,6 @@
 /* PR fortran/55633 */
 /* { dg-do run { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 extern void abort (void);
 

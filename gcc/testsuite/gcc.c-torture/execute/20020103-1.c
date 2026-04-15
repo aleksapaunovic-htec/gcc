@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* On h8300 port, the following used to be broken with -mh or -ms.  */
 
 extern void abort (void);

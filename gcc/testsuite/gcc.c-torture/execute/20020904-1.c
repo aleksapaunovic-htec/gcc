@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/7102 */
 
 /* Verify that GCC zero-extends integer constants

@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=c99 -march=rv32gcv -mabi=ilp32d -O2 -mrvv-vector-bits=scalable" } */
 
 #define uint8_t unsigned char

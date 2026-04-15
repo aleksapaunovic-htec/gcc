@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fharden-control-flow-redundancy -fhardcfr-skip-leaf -fdump-tree-hardcfr -ffat-lto-objects" } */
 
 /* Test skipping instrumentation of leaf functions.  */

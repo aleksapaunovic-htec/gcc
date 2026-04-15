@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-sources "pr79334-1.c" } */
 
 extern int d[][8];

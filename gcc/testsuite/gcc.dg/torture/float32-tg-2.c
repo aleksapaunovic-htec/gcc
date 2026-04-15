@@ -1,5 +1,6 @@
 /* Test _Float32 type-generic built-in functions: __builtin_isinf_sign.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "" } */
 /* { dg-add-options float32 } */
 /* { dg-add-options ieee } */

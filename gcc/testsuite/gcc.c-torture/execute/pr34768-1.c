@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 int x;
 
 void __attribute__((noinline)) foo (void)

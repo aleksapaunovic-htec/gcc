@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/19828 */
 typedef __SIZE_TYPE__ size_t;
 extern size_t strlen (const char *s);

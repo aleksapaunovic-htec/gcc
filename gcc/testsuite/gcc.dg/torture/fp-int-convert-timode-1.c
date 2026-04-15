@@ -1,6 +1,7 @@
 /* Test for correct rounding of conversions from __int128 to
    float.  */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-require-effective-target int128 } */
 /* { dg-options "-frounding-math" } */
 

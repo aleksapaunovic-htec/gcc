@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 typedef unsigned char V8 __attribute__ ((vector_size (32)));
 typedef unsigned int V32 __attribute__ ((vector_size (32)));
 typedef unsigned long long V64 __attribute__ ((vector_size (32)));

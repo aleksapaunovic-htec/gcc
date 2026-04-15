@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "requires io" { freestanding } }  */
 /* { dg-xfail-run-if {unexpected PTX 'vprintf' return value} { nvptx-*-* } } */
 

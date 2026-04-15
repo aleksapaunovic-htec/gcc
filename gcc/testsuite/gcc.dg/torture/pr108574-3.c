@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 __INT32_TYPE__ a = 3557301289, d;
 signed char b, f;

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR tree-optimization/86622 - incorrect strlen of array of array plus
    variable offset
    Exercise strlen() with a multi-dimensional array of strings with

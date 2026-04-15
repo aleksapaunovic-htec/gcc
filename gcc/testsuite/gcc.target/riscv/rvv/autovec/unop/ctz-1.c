@@ -1,4 +1,5 @@
 /* { dg-do compile { target { ! riscv_abi_e } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options "riscv_v" } */
 /* { dg-add-options "riscv_zvbb" } */
 /* { dg-additional-options "-std=c99 -fno-vect-cost-model" } */

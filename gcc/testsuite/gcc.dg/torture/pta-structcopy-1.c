@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-fdump-tree-ealias-details -Wno-attributes" } */
 /* { dg-skip-if "" { *-*-* } { "-O0" } { "" } } */
 

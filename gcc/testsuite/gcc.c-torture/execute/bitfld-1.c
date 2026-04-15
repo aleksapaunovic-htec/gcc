@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Copyright 2002 Free Software Foundation, Inc.
 
    Tests correct signedness of operations on bitfields; in particular

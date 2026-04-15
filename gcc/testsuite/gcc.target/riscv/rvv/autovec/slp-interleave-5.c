@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvl1024b -mabi=lp64d -O3 -fdump-tree-optimized-details" } */
 
 struct S { int a, b; } s[8];

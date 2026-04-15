@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-options "-march=rv64gcv_zvbb -mabi=lp64d -fno-vect-cost-model -mrvv-vector-bits=zvl" } */
 
 typedef int a;

@@ -1,4 +1,5 @@
 /* { dg-do run { target lp64 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 struct {
     unsigned long x:33;

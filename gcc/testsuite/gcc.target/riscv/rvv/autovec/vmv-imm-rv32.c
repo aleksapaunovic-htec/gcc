@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-std=c99 -march=rv32gcv -mabi=ilp32d -fno-vect-cost-model -mrvv-vector-bits=scalable -fno-builtin" } */
 
 #include "vmv-imm-template.h"

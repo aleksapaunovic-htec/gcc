@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* Test to verify that a strlen() call with a pointer to a dynamic type
    doesn't make assumptions based on the static type of the original
    pointer.  See g++.dg/init/strlen.C for the corresponding C++ test.  */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* REPRODUCED:RUN:SIGNAL MACHINE:i386 OPTIONS:-O */
 void abort(void);
 void exit(int);

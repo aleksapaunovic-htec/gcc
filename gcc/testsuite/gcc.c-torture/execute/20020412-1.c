@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/3711
    This testcase ICEd on IA-32 at -O0 and was miscompiled otherwise,
    because std_expand_builtin_va_arg didn't handle variable size types.  */

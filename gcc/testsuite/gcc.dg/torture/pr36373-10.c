@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 #ifdef __SIZE_TYPE__
 typedef __SIZE_TYPE__ uintptr_t;

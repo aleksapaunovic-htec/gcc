@@ -1,4 +1,5 @@
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 #define vector __attribute__((vector_size(16) ))
 
 /* Check whether register declaration of vector type still 

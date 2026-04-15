@@ -1,4 +1,5 @@
 /* { dg-do compile { target { ! riscv_abi_e } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-add-options riscv_v } */
 /* { dg-additional-options "-O3 -mrvv-max-lmul=m1" } */
 /* { dg-final { check-function-bodies "**" "" } } */

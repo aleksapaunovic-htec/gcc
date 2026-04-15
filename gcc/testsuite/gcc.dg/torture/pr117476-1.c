@@ -1,6 +1,7 @@
 /* PR rtl-optimization/117476.
    First case checking out of mode N non-zero bits. */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int c = 0x1FF;
 

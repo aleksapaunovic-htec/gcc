@@ -1,5 +1,6 @@
 /* PR libstdc++/88101 */
 /* { dg-do run } */
+/* { dg-require-effective-target riscv_v_ok } */
 
 int i1, i2;
 long double l1, l2;

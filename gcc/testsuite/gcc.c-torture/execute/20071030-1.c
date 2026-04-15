@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR target/11044 */
 /* Originator: Tim McGrath <misty-@charter.net> */
 /* Testcase contributed by Eric Botcazou <ebotcazou@libertysurf.fr> */

@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 extern void abort (void);
 extern int memcmp (const void *, const void *, __SIZE_TYPE__);
 

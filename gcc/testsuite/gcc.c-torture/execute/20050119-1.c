@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR c/19342 */
 typedef enum { A, B, C, D } E;
 

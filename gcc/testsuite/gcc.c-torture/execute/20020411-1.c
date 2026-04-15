@@ -1,3 +1,4 @@
+/* { dg-require-effective-target riscv_v_ok } */
 /* PR optimization/6177
    This testcase ICEd because expr.c did not expect to see a CONCAT
    as array rtl.  */
