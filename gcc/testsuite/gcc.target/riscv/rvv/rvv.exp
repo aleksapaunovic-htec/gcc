@@ -24,6 +24,11 @@ if ![istarget riscv*-*-*] then {
 # Load support procs.
 load_lib gcc-dg.exp
 
+# RVV is not supported on RISC-V big-endian targets yet.
+if { ![check_effective_target_riscv_v_ok] } {
+  return
+}
+
 # If a testcase doesn't have special options, use these.
 global DEFAULT_CFLAGS
 if ![info exists DEFAULT_CFLAGS] then {

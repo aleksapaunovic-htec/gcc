@@ -1,4 +1,5 @@
 /* { dg-do compile { target { rv64 } } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "-march given" { *-*-* } { "-march=*" } } */
 /* { dg-options "-mcpu=xiangshan-kunminghu" } */
 /* XiangShan Kunminghu => rv64imafdcbvh_sdtrig_sha_shcounterenw_shgatpa

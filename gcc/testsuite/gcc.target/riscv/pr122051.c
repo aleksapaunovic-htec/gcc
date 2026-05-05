@@ -1,4 +1,5 @@
 /* { dg-do compile { target int128 } } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mrvv-vector-bits=zvl -mcpu=xt-c920 -w" } */
 
 typedef __attribute__((__vector_size__(4))) char B;
@@ -20,5 +21,4 @@ foo(__int128, __int128, __int128, __int128, B a, B b, B c, B d, B e, B f, B g, B
   } while (__builtin_memcmp(p, 1 + p, 7));
   o = ((U)w)[0] + c + d + e + f + g + h + a + b;
 }
-
 

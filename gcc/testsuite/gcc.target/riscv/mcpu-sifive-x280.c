@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "-march given" { *-*-* } { "-march=*" } } */
 /* { dg-options "-mcpu=sifive-x280 -mabi=lp64" } */
 /* SiFive x280 => rv64imafdcv_zfh_zba_zbb_zvfh_zvl512b */

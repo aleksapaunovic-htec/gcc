@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "-march given" { *-*-* } { "-march=*" } } */
 /* { dg-options "-mcpu=tt-ascalon-d8 -mabi=lp64d" } */
 /* Tenstorrent tt-ascalon-d8 => rv64imafdcv_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicond_zicsr_zifencei_zihintntl_zihintpause_zimop_za64rs_zawrs_zfa_zfbfmin_zfh_zcb_zcmop_zba_zbb_zbs_zvbb_zvbc_zvfbfwma_zvfh_zvkng_zvl256b */

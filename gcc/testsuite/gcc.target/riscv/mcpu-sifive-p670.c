@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-skip-if "-march given" { *-*-* } { "-march=*" } } */
 /* { dg-options "-mcpu=sifive-p670 -mabi=lp64d" } */
 /* SiFive p670 => rv64imafdcv_za64rs_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicsr_zifencei_zihintntl_zihintpause_zihpm_zfhmin_zba_zbb_zbs_zvl128b_zvbb_zvknc_zvkng_zvksc_zvksg */

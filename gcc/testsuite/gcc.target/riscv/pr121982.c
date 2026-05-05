@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target riscv_v_ok } */
 /* { dg-additional-options "-mcpu=tt-ascalon-d8 -mtune=tt-ascalon-d8" } */
 
 /* Verify we don't ICE on the following test cases.  */
