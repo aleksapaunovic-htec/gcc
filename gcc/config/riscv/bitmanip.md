@@ -47,14 +47,21 @@
 ; implicit sign-extensions.
 (define_split
   [(set (match_operand:DI 0 "register_operand")
-	(sign_extend:DI (div:SI (plus:SI (ashift:SI (subreg:SI (match_operand:DI 1 "register_operand") 0)
-						    (match_operand:QI 2 "imm123_operand"))
-					 (subreg:SI (match_operand:DI 3 "register_operand") 0))
+	(sign_extend:DI (div:SI (plus:SI
+				  (ashift:SI
+				    (match_operator:SI 6 "subreg_lowpart_operator"
+				      [(match_operand:DI 1 "register_operand")])
+				    (match_operand:QI 2 "imm123_operand"))
+				  (match_operator:SI 7 "subreg_lowpart_operator"
+				    [(match_operand:DI 3 "register_operand")]))
 				(match_operand:SI 4 "register_operand"))))
    (clobber (match_operand:DI 5 "register_operand"))]
   "TARGET_64BIT && TARGET_ZBA"
    [(set (match_dup 5) (plus:DI (ashift:DI (match_dup 1) (match_dup 2)) (match_dup 3)))
-    (set (match_dup 0) (sign_extend:DI (div:SI (subreg:SI (match_dup 5) 0) (match_dup 4))))])
+    (set (match_dup 0) (sign_extend:DI (div:SI (match_dup 8) (match_dup 4))))]
+{
+  operands[8] = gen_lowpart (SImode, operands[5]);
+})
 
 ; Zba does not provide W-forms of sh[123]add(.uw)?, which leads to an
 ; interesting irregularity: we can generate a signed 32-bit result
@@ -66,27 +73,41 @@
 ; into [ sh[123]add, zext.w ] for use during combine.
 (define_split
   [(set (match_operand:DI 0 "register_operand")
-	(zero_extend:DI (plus:SI (ashift:SI (subreg:SI (match_operand:DI 1 "register_operand") 0)
-						       (match_operand:QI 2 "imm123_operand"))
-				 (subreg:SI (match_operand:DI 3 "register_operand") 0))))
+	(zero_extend:DI (plus:SI
+			  (ashift:SI
+			    (match_operator:SI 5 "subreg_lowpart_operator"
+			      [(match_operand:DI 1 "register_operand")])
+			    (match_operand:QI 2 "imm123_operand"))
+			  (match_operator:SI 6 "subreg_lowpart_operator"
+			    [(match_operand:DI 3 "register_operand")]))))
    (clobber (match_operand:DI 4 "register_operand"))]
   "TARGET_64BIT && TARGET_ZBA"
   [(set (match_dup 4) (plus:DI (ashift:DI (match_dup 1) (match_dup 2)) (match_dup 3)))
-   (set (match_dup 0) (zero_extend:DI (subreg:SI (match_dup 4) 0)))])
+   (set (match_dup 0) (zero_extend:DI (match_dup 7)))]
+{
+  operands[7] = gen_lowpart (SImode, operands[4]);
+})
 
 (define_split
   [(set (match_operand:DI 0 "register_operand")
-	(zero_extend:DI (plus:SI (subreg:SI (and:DI (ashift:DI (match_operand:DI 1 "register_operand")
-							       (match_operand:QI 2 "imm123_operand"))
-						    (match_operand:DI 3 "consecutive_bits_operand")) 0)
-				 (subreg:SI (match_operand:DI 4 "register_operand") 0))))
+	(zero_extend:DI (plus:SI
+			  (match_operator:SI 6 "subreg_lowpart_operator"
+			    [(and:DI (ashift:DI
+				       (match_operand:DI 1 "register_operand")
+				       (match_operand:QI 2 "imm123_operand"))
+				     (match_operand:DI 3 "consecutive_bits_operand"))])
+			  (match_operator:SI 7 "subreg_lowpart_operator"
+			    [(match_operand:DI 4 "register_operand")]))))
    (clobber (match_operand:DI 5 "register_operand"))]
   "TARGET_64BIT && TARGET_ZBA
    && riscv_shamt_matches_mask_p (INTVAL (operands[2]), INTVAL (operands[3]))
    /* Ensure the mask includes all the bits in SImode.  */
    && ((INTVAL (operands[3]) & (HOST_WIDE_INT_1U << 31)) != 0)"
   [(set (match_dup 5) (plus:DI (ashift:DI (match_dup 1) (match_dup 2)) (match_dup 4)))
-   (set (match_dup 0) (zero_extend:DI (subreg:SI (match_dup 5) 0)))])
+   (set (match_dup 0) (zero_extend:DI (match_dup 8)))]
+{
+  operands[8] = gen_lowpart (SImode, operands[5]);
+})
 
 ; Make sure that an andi followed by a sh[123]add remains a two instruction
 ; sequence--and is not torn apart into slli, slri, add.
@@ -571,10 +592,10 @@
 (define_split
   [(set (match_operand:DI 0 "register_operand")
 	(sign_extend:DI
-	  (subreg:SI
-	    (bitmanip_minmax:DI (zero_extend:DI
-				  (match_operand:SI 1 "register_operand"))
-				(match_operand:DI 2 "immediate_operand")) 0)))
+	  (match_operator:SI 5 "subreg_lowpart_operator"
+	    [(bitmanip_minmax:DI
+	       (zero_extend:DI (match_operand:SI 1 "register_operand"))
+	       (match_operand:DI 2 "immediate_operand"))])))
    (clobber (match_operand:DI 3 "register_operand"))
    (clobber (match_operand:DI 4 "register_operand"))]
   "TARGET_64BIT && TARGET_ZBB && sext_hwi (INTVAL (operands[2]), 32) >= 0"
@@ -612,9 +633,9 @@
 	(any_or:X
 	  (ashift:X
 	    (const_int 1)
-	    (subreg:QI
-	      (and:X (match_operand:X 2 "register_operand" "r")
-		     (match_operand 3 "<X:shiftm1>" "<X:shiftm1p>")) 0))
+	    (match_operator:QI 4 "subreg_lowpart_operator"
+	      [(and:X (match_operand:X 2 "register_operand" "r")
+		      (match_operand 3 "<X:shiftm1>" "<X:shiftm1p>"))]))
 	  (match_operand:X 1 "register_operand" "r")))]
   "TARGET_ZBS"
   "<bit_optab>\t%0,%1,%2"
@@ -648,9 +669,10 @@
   [(set (match_operand:DI 0 "register_operand" "=r")
 	(any_extend:DI
 	 (ashift:SI (const_int 1)
-		    (subreg:QI
-		      (and:DI (not:DI (match_operand:DI 1 "register_operand" "r"))
-			      (match_operand 2 "const_int_operand")) 0))))
+		    (match_operator:QI 4 "subreg_lowpart_operator"
+		      [(and:DI
+			 (not:DI (match_operand:DI 1 "register_operand" "r"))
+			 (match_operand 2 "const_int_operand"))]))))
    (clobber (match_scratch:X 3 "=&r"))]
   "TARGET_64BIT
    && TARGET_ZBS
@@ -672,9 +694,9 @@
   [(set (match_operand:DI 0 "register_operand" "=r")
         (any_extend:DI
 	 (ashift:SI (const_int 1)
-		    (subreg:QI
-		      (and:DI (match_operand:DI 1 "register_operand" "r")
-			      (match_operand 2 "const_int_operand")) 0))))]
+		    (match_operator:QI 3 "subreg_lowpart_operator"
+		      [(and:DI (match_operand:DI 1 "register_operand" "r")
+			       (match_operand 2 "const_int_operand"))]))))]
   "TARGET_64BIT
    && TARGET_ZBS
    && (INTVAL (operands[2]) & 0x1f) != 0x1f"
@@ -683,8 +705,11 @@
   [(set (match_dup 0) (and:DI (match_dup 1) (match_dup 2)))
    (set (match_dup 0) (zero_extend:DI (ashift:SI
 				     (const_int 1)
-				     (subreg:QI (match_dup 0) 0))))]
-  { operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f); }
+				     (match_dup 3))))]
+{
+  operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f);
+  operands[3] = gen_lowpart (QImode, operands[0]);
+}
   [(set_attr "type" "bitmanip")])
 
 ;; Similarly two patterns for IOR/XOR generating bset/binv to
@@ -695,9 +720,10 @@
 	  (any_extend:DI
 	    (ashift:SI
 	      (const_int 1)
-	      (subreg:QI
-		(and:DI (not:DI (match_operand:DI 1 "register_operand" "r"))
-			(match_operand 2 "const_int_operand")) 0)))
+	      (match_operator:QI 5 "subreg_lowpart_operator"
+		[(and:DI
+		   (not:DI (match_operand:DI 1 "register_operand" "r"))
+		   (match_operand 2 "const_int_operand"))])))
 	  (match_operand:DI 3 "register_operand" "r")))
    (clobber (match_scratch:X 4 "=&r"))]
   "TARGET_64BIT
@@ -721,9 +747,9 @@
 	  (any_extend:DI
 	    (ashift:SI
 	      (const_int 1)
-	      (subreg:QI
-		(and:DI (match_operand:DI 1 "register_operand" "r")
-			(match_operand 2 "const_int_operand")) 0)))
+	      (match_operator:QI 5 "subreg_lowpart_operator"
+		[(and:DI (match_operand:DI 1 "register_operand" "r")
+			 (match_operand 2 "const_int_operand"))])))
 	  (match_operand:DI 3 "register_operand" "r")))
    (clobber (match_scratch:X 4 "=&r"))]
   "TARGET_64BIT
@@ -732,8 +758,11 @@
   "#"
   "&& reload_completed"
    [(set (match_dup 4) (and:DI (match_dup 1) (match_dup 2)))
-    (set (match_dup 0) (any_or:DI (ashift:DI (const_int 1) (subreg:QI (match_dup 4) 0)) (match_dup 3)))]
-  { operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f); }
+    (set (match_dup 0) (any_or:DI (ashift:DI (const_int 1) (match_dup 5)) (match_dup 3)))]
+{
+  operands[5] = gen_lowpart (QImode, operands[4]);
+  operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f);
+}
   [(set_attr "type" "bitmanip")])
 
 ;; Similarly two patterns for AND generating bclr to
@@ -745,9 +774,10 @@
 	    (any_extend:DI
 	      (ashift:SI
 	        (const_int 1)
-	        (subreg:QI
-		  (and:DI (not:DI (match_operand:DI 1 "register_operand" "r"))
-			  (match_operand 2 "const_int_operand")) 0))))
+	        (match_operator:QI 5 "subreg_lowpart_operator"
+		  [(and:DI
+		     (not:DI (match_operand:DI 1 "register_operand" "r"))
+		     (match_operand 2 "const_int_operand"))]))))
 	  (match_operand:DI 3 "register_operand" "r")))
    (clobber (match_scratch:X 4 "=&r"))]
   "TARGET_64BIT
@@ -773,9 +803,9 @@
 	    (any_extend:DI
 	      (ashift:SI
 	        (const_int 1)
-	        (subreg:QI
-		  (and:DI (match_operand:DI 1 "register_operand" "r")
-			  (match_operand 2 "const_int_operand")) 0))))
+	        (match_operator:QI 5 "subreg_lowpart_operator"
+		  [(and:DI (match_operand:DI 1 "register_operand" "r")
+			   (match_operand 2 "const_int_operand"))]))))
 	  (match_operand:DI 3 "register_operand" "r")))
    (clobber (match_scratch:X 4 "=&r"))]
   "TARGET_64BIT
@@ -794,9 +824,9 @@
 (define_insn "*bset<mode>_1_mask"
   [(set (match_operand:X 0 "register_operand" "=r")
 	(ashift:X (const_int 1)
-		  (subreg:QI
-		   (and:X (match_operand:X 1 "register_operand" "r")
-			  (match_operand 2 "<X:shiftm1>" "<X:shiftm1p>")) 0)))]
+		  (match_operator:QI 3 "subreg_lowpart_operator"
+		    [(and:X (match_operand:X 1 "register_operand" "r")
+			    (match_operand 2 "<X:shiftm1>" "<X:shiftm1p>"))])))]
   "TARGET_ZBS"
   "bset\t%0,x0,%1"
   [(set_attr "type" "bitmanip")])

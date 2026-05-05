@@ -474,9 +474,9 @@
    && (INTVAL (operands[3]) >> INTVAL (operands[2])) == 0xffffffff"
   "#"
   "&& !TARGET_ZBA && reload_completed"
-  [(set (match_dup 0) (zero_extend:DI (subreg:SI (match_dup 1) 0)))
+  [(set (match_dup 0) (zero_extend:DI (match_dup 4)))
    (set (match_dup 0) (ashift:DI (match_dup 0) (match_dup 2)))]
-  ""
+  { operands[4] = gen_lowpart (SImode, operands[1]); }
   [(set_attr "type" "bitmanip")])
 
 (define_insn "*th_memidx_zero_extendqi<SUPERQI:mode>2"

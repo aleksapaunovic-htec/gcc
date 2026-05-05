@@ -10,7 +10,9 @@ struct bar
   unsigned long c:22;
 };
 
-/* We prefer andi over th.extu because it can be compressed.  */
+/* We prefer andi over th.extu because it can be compressed.  On big-endian
+   targets, the bitfield is placed in the high bits of the first word, so a
+   shift is needed instead.  */
 
 unsigned long
 foo (struct bar *s)
@@ -19,4 +21,5 @@ foo (struct bar *s)
 }
 
 /* { dg-final { scan-assembler-not "th.extu\t" } } */
-/* { dg-final { scan-assembler "andi\t" } } */
+/* { dg-final { scan-assembler "andi\t" { target { ! be } } } } */
+/* { dg-final { scan-assembler "srli" { target be } } } */
